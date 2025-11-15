@@ -48,7 +48,7 @@ export default function HomePage() {
               </div>
               <div className="mt-4 text-center">
                 <p className="text-slate-400 text-sm mb-3">
-                  Watch the full documentary `&quot;`The Illusion of Money`&quot;` by Leonard Ulrich
+                  Watch the full documentary &quot;The Illusion of Money&quot; by Leonard Ulrich
                 </p>
                 <div className="flex gap-4 justify-center">
                   <a 
@@ -87,7 +87,7 @@ export default function HomePage() {
                   this presentation concentrates on history, economics, monetary theory, and Bible prophecy.
                 </p>
                 <p className="font-semibold text-yellow-400">
-                  `&quot;`For the love of money is the root of all evil`&quot;` - 1 Timothy 6:10
+                  &quot;For the love of money is the root of all evil&quot; - 1 Timothy 6:10
                 </p>
               </div>
             </div>
