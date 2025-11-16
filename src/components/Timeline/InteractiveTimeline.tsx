@@ -73,7 +73,7 @@ export default function InteractiveTimeline() {
               <Card className="bg-slate-800/50 border-slate-700 hover:bg-slate-700/50 transition-all duration-300 cursor-pointer h-full group active:scale-[0.98]">
                 <CardHeader className="pb-2 md:pb-3">
                   {/* Chapter visual header with optional image or gradient fallback */}
-                  <div className={`relative w-full h-20 sm:h-24 rounded-lg overflow-hidden mb-2 md:mb-3 ${!chapter.image ? `bg-gradient-to-br ${chapter.color}` : ''}`}>
+                  <div className={`relative w-full h-30 sm:h-24 rounded-lg overflow-hidden mb-2 md:mb-3 ${!chapter.image ? `bg-gradient-to-br ${chapter.color}` : ''}`}>
                     {chapter.image ? (
                       <Image
                         src={chapter.image}

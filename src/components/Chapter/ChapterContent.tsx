@@ -64,7 +64,7 @@ export default function ChapterContent({ chapter }: ChapterContentProps) {
       <section className="bg-slate-800/50 rounded-lg overflow-hidden border border-slate-700">
         {/* Optional Header Image */}
         {chapter.headerImage && (
-          <div className="relative w-full h-48 sm:h-64 md:h-80">
+          <div className="relative w-full h-48 sm:h-64 md:h-100">
             <Image
               src={chapter.headerImage}
               alt={chapter.title}

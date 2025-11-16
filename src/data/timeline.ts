@@ -848,7 +848,7 @@ export const chapters = [
     period: '2000 BC - 600 AD',
     description: 'From biblical currency manipulation to the first coins and early financial systems',
     color: 'from-amber-600 to-orange-700',
-    image: undefined // Optional: '/images/chapters/ancient-foundations.jpg'
+    image: '/images/chapters/ancient-foundations.png',
   },
   {
     slug: 'medieval-banking',
@@ -856,7 +856,7 @@ export const chapters = [
     period: '600 - 1400 AD',
     description: 'The emergence of paper money, fractional reserve banking, and early bond markets',
     color: 'from-orange-600 to-red-700',
-    image: undefined // Optional: '/images/chapters/medieval-banking.jpg'
+    image: '/images/chapters/fractional-reserve-banking.png'
   },
   {
     slug: 'banking-houses',
@@ -864,7 +864,7 @@ export const chapters = [
     period: '1400 - 1700 AD',
     description: 'From the Medici empire to the Bank of England and early stock exchanges',
     color: 'from-red-600 to-rose-700',
-    image: undefined // Optional: '/images/chapters/banking-houses.jpg'
+    image: '/images/chapters/banking-houses.png'
   },
   {
     slug: 'industrial-revolution',
@@ -872,7 +872,7 @@ export const chapters = [
     period: '1700 - 1900 AD',
     description: 'The Rothschild empire, American financial wars, and robber baron consolidation',
     color: 'from-rose-600 to-pink-700',
-    image: undefined // Optional: '/images/chapters/industrial-revolution.jpg'
+    image: '/images/chapters/industrial-revolution.png'
   },
   {
     slug: 'federal-reserve',
@@ -880,7 +880,7 @@ export const chapters = [
     period: '1900 - 1971 AD',
     description: 'Central banking victory, Great Depression wealth transfer, and Bretton Woods system',
     color: 'from-pink-600 to-purple-700',
-    image: undefined // Optional: '/images/chapters/federal-reserve.jpg'
+    image: '/images/chapters/federal-reserve.jpg'
   },
   {
     slug: 'fiat-system',
@@ -888,7 +888,7 @@ export const chapters = [
     period: '1971 - 2008 AD',
     description: 'Nixon Shock, petrodollar system, deregulation, and derivative speculation bubbles',
     color: 'from-purple-600 to-indigo-700',
-    image: undefined // Optional: '/images/chapters/fiat-system.jpg'
+    image: '/images/chapters/fiat-currency-system.jpg'
   },
   {
     slug: 'modern-control',
@@ -896,7 +896,7 @@ export const chapters = [
     period: '2008 - Present',
     description: 'Too big to fail, quantitative easing, COVID acceleration, and digital currency preparation',
     color: 'from-indigo-600 to-blue-700',
-    image: undefined // Optional: '/images/chapters/modern-control.jpg'
+    image: '/images/chapters/modern-financial-control.png'
   },
   {
     slug: 'biblical-prophecy',
@@ -904,7 +904,7 @@ export const chapters = [
     period: 'Present - Future',
     description: 'End times financial system, mark of the beast, and spiritual solutions to worldly problems',
     color: 'from-blue-600 to-cyan-700',
-    image: undefined // Optional: '/images/chapters/biblical-prophecy.jpg'
+    image: '/images/chapters/biblical-prophecy.webp'
   }
 ];
 
