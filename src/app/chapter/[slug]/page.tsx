@@ -51,7 +51,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
       <ChapterNavigation currentChapter={resolvedParams.slug} />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 pb-12">
+      <div className="relative z-10 container mx-auto pb-8 sm:pb-12">
         <ChapterContent chapter={chapter} />
       </div>
     </main>
