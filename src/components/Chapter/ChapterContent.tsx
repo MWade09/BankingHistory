@@ -7,9 +7,42 @@ import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 import { ExternalLink, Youtube } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
+import FractionalReserve from '@/components/Infographics/FractionalReserve'
+import FederalReserveStructure from '@/components/Infographics/FederalReserveStructure'
+import BoomBustCycle from '@/components/Infographics/BoomBustCycle'
+import JosephEnslavement from '@/components/Infographics/JosephEnslavement'
+import CurrencyDebasement from '@/components/Infographics/CurrencyDebasement'
+import CentralBankingCartel from '@/components/Infographics/CentralBankingCartel'
+import PetrodollarSystem from '@/components/Infographics/PetrodollarSystem'
+import MarkOfBeast from '@/components/Infographics/MarkOfBeast'
 
 interface ChapterContentProps {
   chapter: ChapterContentType
+}
+
+// Helper function to render infographics
+function renderInfographic(type: string) {
+  switch(type) {
+    case 'fractional-reserve':
+      return <FractionalReserve />
+    case 'federal-reserve-structure':
+      return <FederalReserveStructure />
+    case 'boom-bust-cycle':
+      return <BoomBustCycle />
+    case 'joseph-enslavement':
+      return <JosephEnslavement />
+    case 'currency-debasement':
+      return <CurrencyDebasement />
+    case 'central-banking-cartel':
+      return <CentralBankingCartel />
+    case 'petrodollar-system':
+      return <PetrodollarSystem />
+    case 'mark-of-beast':
+      return <MarkOfBeast />
+    default:
+      return null
+  }
 }
 
 export default function ChapterContent({ chapter }: ChapterContentProps) {
@@ -100,6 +133,38 @@ export default function ChapterContent({ chapter }: ChapterContentProps) {
               <h3 className="text-xl font-semibold text-white mb-4">{section.title}</h3>
               <div className="space-y-4">
                 <p className="text-slate-300 leading-relaxed">{section.content}</p>
+                
+                {/* Section Images */}
+                {section.images && section.images.length > 0 && (
+                  <div className="grid gap-4 my-6">
+                    {section.images.map((image, imgIndex) => (
+                      <figure key={imgIndex} className="bg-slate-900/50 rounded-lg p-4 border border-slate-600">
+                        <div className="relative w-full h-64 md:h-96 mb-3">
+                          <Image
+                            src={image.src}
+                            alt={image.alt}
+                            fill
+                            className="object-contain rounded"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                          />
+                        </div>
+                        <figcaption className="text-sm text-slate-400">
+                          <p className="text-slate-300 mb-1">{image.caption}</p>
+                          {image.credit && (
+                            <p className="text-xs text-slate-500">Credit: {image.credit}</p>
+                          )}
+                        </figcaption>
+                      </figure>
+                    ))}
+                  </div>
+                )}
+
+                {/* Section Infographic */}
+                {section.infographic && (
+                  <div className="my-8">
+                    {renderInfographic(section.infographic)}
+                  </div>
+                )}
                 
                 {section.details && section.details.length > 0 && (
                   <div className="bg-slate-700/30 rounded p-4 border border-slate-600">

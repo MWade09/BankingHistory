@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { chapters } from '@/data/timeline'
+import SearchButton from '@/components/Search/SearchButton'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -51,7 +52,7 @@ export default function ChapterNavigation({ currentChapter }: ChapterNavigationP
         </div>
 
         {/* Navigation Controls */}
-        <div className="flex items-center justify-between mt-4">
+        <div className="flex items-center justify-between mt-4 gap-4">
           {prevChapter ? (
             <Link href={`/chapter/${prevChapter.slug}`}>
               <Button variant="outline" size="sm" className="bg-slate-800/50 border-slate-600 text-slate-200 hover:bg-slate-700/50">
@@ -61,6 +62,11 @@ export default function ChapterNavigation({ currentChapter }: ChapterNavigationP
           ) : (
             <div></div>
           )}
+
+          {/* Search Bar */}
+          <div className="flex-1 flex justify-center">
+            <SearchButton />
+          </div>
 
           {nextChapter ? (
             <Link href={`/chapter/${nextChapter.slug}`}>
