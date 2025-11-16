@@ -6,6 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function InteractiveTimeline() {
   const [selectedEvent, setSelectedEvent] = useState<typeof timelineEvents[0] | null>(null)
@@ -69,9 +70,28 @@ export default function InteractiveTimeline() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
           {chapters.map((chapter) => (
             <Link key={chapter.slug} href={`/chapter/${chapter.slug}`}>
-              <Card className="bg-slate-800/50 border-slate-700 hover:bg-slate-700/50 transition-all duration-300 cursor-pointer h-full">
+              <Card className="bg-slate-800/50 border-slate-700 hover:bg-slate-700/50 transition-all duration-300 cursor-pointer h-full group">
                 <CardHeader className="pb-3">
-                  <div className={`w-full h-2 rounded-full bg-gradient-to-r ${chapter.color} mb-3`}></div>
+                  {/* Chapter visual header with optional image or gradient fallback */}
+                  <div className={`relative w-full h-24 rounded-lg overflow-hidden mb-3 ${!chapter.image ? `bg-gradient-to-br ${chapter.color}` : ''}`}>
+                    {chapter.image ? (
+                      <Image
+                        src={chapter.image}
+                        alt={chapter.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    ) : (
+                      <>
+                        <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all"></div>
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <div className="text-white/90 text-5xl font-bold drop-shadow-lg">
+                            {chapter.title.split(' ')[0].charAt(0)}
+                          </div>
+                        </div>
+                      </>
+                    )}
+                  </div>
                   <CardTitle className="text-white text-lg">{chapter.title}</CardTitle>
                   <CardDescription className="text-slate-400">{chapter.period}</CardDescription>
                 </CardHeader>

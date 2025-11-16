@@ -8,6 +8,7 @@ export interface ChapterContent {
   biblicalConnections: BiblicalConnection[];
   modernRelevance: string;
   videoTimestamp?: string; // Optional timestamp reference to the documentary
+  headerImage?: string; // Optional header image path (e.g., '/images/chapters/ancient-foundations.jpg')
 }
 
 export interface ChapterSection {
@@ -17,7 +18,7 @@ export interface ChapterSection {
   significance: string;
   details?: string[]; // Additional bullet points for more detail
   images?: SectionImage[]; // Historical images for this section
-  infographic?: 'fractional-reserve' | 'federal-reserve-structure' | 'boom-bust-cycle' | 'joseph-enslavement' | 'currency-debasement' | 'central-banking-cartel' | 'petrodollar-system' | 'mark-of-beast'; // Infographic component to display
+  infographic?: 'fractional-reserve' | 'federal-reserve-structure' | 'boom-bust-cycle' | 'joseph-enslavement' | 'currency-debasement' | 'central-banking-cartel' | 'petrodollar-system' | 'mark-of-beast' | 'tally-stick-system' | 'dutch-east-india' | 'phoenix-prophecy'; // Infographic component to display
 }
 
 export interface SectionImage {
@@ -47,6 +48,7 @@ export const chapterContents: ChapterContent[] = [
     period: '2000 BC - 600 AD',
     videoTimestamp: '19:00-28:00',
     introduction: 'The earliest forms of currency manipulation and control can be traced to biblical times, revealing spiritual warfare patterns that persist today. Joseph\'s progressive enslavement system in Egypt established the template for using crisis to concentrate wealth and power. The birth of coinage in Lydia gave rulers unprecedented control through money quantity and quality manipulation. Athens\' Peloponnesian War currency debasement demonstrated the fatal trap of inflating money supply. Jesus Christ\'s violent confrontation with temple money changers revealed God\'s hatred of financial oppression in sacred spaces - the only recorded instance of Christ using physical force. Julius Caesar\'s assassination by merchant-senators exposed the deadly conflict between leaders serving people versus monetary interests. These ancient foundations prove financial manipulation isn\'t modern invention but timeless spiritual battle between God\'s justice and mammon\'s oppression.',
+    headerImage: '/images/chapters/ancient-foundations.png',
     sections: [
       {
         title: 'Joseph\'s Economic Strategy - Template for Progressive Enslavement',
@@ -794,6 +796,7 @@ export const chapterContents: ChapterContent[] = [
     period: '600 - 1400 AD',
     videoTimestamp: '28:00-35:00',
     introduction: 'The medieval period witnessed the pivotal discoveries and innovations that transformed simple money lending into the sophisticated fraud of modern banking. China introduced paper money as the first substitute for real wealth. European goldsmiths made the most consequential discovery in banking history: fractional reserve banking - the ability to create money from nothing and manipulate entire economies through credit expansion and contraction. England\'s tally stick system proved currency is fundamentally record-keeping, not physical objects. Italian bond markets established government debt as the mechanism for controlling nations. These medieval innovations weren\'t improvements - they were the discovery of techniques to defraud populations on unprecedented scales, techniques that now operate globally through central banks and bond markets controlling every major economy.',
+    headerImage: '/images/chapters/fractional-reserve-banking.png',
     sections: [
       {
         title: 'Chinese Paper Money - First Substitute for Real Wealth',
@@ -1072,7 +1075,8 @@ export const chapterContents: ChapterContent[] = [
           'Functions technically',
           'But serves primarily to transfer wealth',
           'To those creating money from nothing'
-        ]
+        ],
+        infographic: 'tally-stick-system'
       },
       {
         title: 'Italian Bond Markets - Government Debt as Control Mechanism',
@@ -1247,6 +1251,7 @@ export const chapterContents: ChapterContent[] = [
     period: '1400 - 1700 AD',
     videoTimestamp: '32:00-42:00',
     introduction: 'The Renaissance period witnessed the transformation of backstreet money lending into international banking dynasties that would dominate nations. The Medici circumvented religious usury laws to create the first multinational banking network. Shakespeare revealed why Shylock the money lender had to be Jewish. The Dutch East India Company received governmental powers that modern corporations still wield today. Tulip mania demonstrated how greed and fear drive speculative bubbles. Most significantly, the Bank of England established the deceptive template for private central banks that appear governmental while remaining privately owned - a fraud so successful it would be replicated worldwide. These banking houses proved that whoever controls the creation and distribution of money controls nations themselves.',
+    headerImage: '/images/chapters/banking-houses.png',
     sections: [
       {
         title: 'The Medici Banking Dynasty - Circumventing God\'s Law',
@@ -1418,7 +1423,8 @@ export const chapterContents: ChapterContent[] = [
           'Through regulatory capture',
           'Through international trade agreements',
           'Subordinating national laws to corporate profit'
-        ]
+        ],
+        infographic: 'dutch-east-india'
       },
       {
         title: 'Tulip Mania - First Recorded Speculative Bubble',
@@ -1743,6 +1749,7 @@ export const chapterContents: ChapterContent[] = [
     period: '1700 - 1900 AD',
     videoTimestamp: '39:00-49:00',
     introduction: 'The industrial age brought unprecedented financial manipulation through manufactured bubbles, coordinated market crashes, and the rise of banking dynasties that would dominate the world. The Rothschild empire established international banking above national sovereignty, American financial wars raged between the people and money changers, and robber baron consolidation created the foundation for modern corporate-banking fusion. This period reveals how financial crises are engineered to transfer real assets to elite while destroying competition and enslaving nations in debt.',
+    headerImage: '/images/chapters/industrial-revolution.jpg',
     sections: [
       {
         title: 'American Revolution - The Monetary War',
@@ -2155,6 +2162,7 @@ export const chapterContents: ChapterContent[] = [
     period: '1900 - 1971 AD',
     introduction: 'The 20th century marked the ultimate victory of private banking interests over American independence. After seven previous attempts spanning 128 years, the money changers finally succeeded in establishing permanent control over the American currency through the Federal Reserve system - a private corporation masquerading as a government institution. This chapter reveals exactly how the system creates money from nothing, why income tax is voluntary, and how this fraud has enslaved nations in perpetual debt.',
     videoTimestamp: '49:00-1:03:00',
+    headerImage: '/images/chapters/federal-reserve.png',
     sections: [
       {
         title: 'Jekyll Island Conspiracy',
@@ -2438,6 +2446,7 @@ export const chapterContents: ChapterContent[] = [
     period: '1971 - 2008 AD',
     videoTimestamp: '1:21:00-1:40:00',
     introduction: 'The Nixon Shock of 1971 completed the separation of currency from real value, ushering in an era of pure fiat money backed by nothing but confidence and force. This period saw the creation of the petrodollar system, neoliberal restructuring that was really neocolonialism, massive deregulation culminating in Glass-Steagall repeal, and the rise of derivative speculation based on separating risk from reality. It all culminated in the 2008 financial crisis - but not before massive fraud was exposed in Enron, WorldCom, and the mortgage market.',
+    headerImage: '/images/chapters/fiat-currency-system.jpg',
     sections: [
       {
         title: 'Nixon Shock - Ending the Gold Standard',
@@ -2904,6 +2913,7 @@ export const chapterContents: ChapterContent[] = [
     period: '2008 - Present',
     videoTimestamp: '1:40:00-2:00:00',
     introduction: 'The 2008 financial crisis marked the beginning of a new era of explicit financial control, where the pretense of free markets was abandoned in favor of direct manipulation. Central bank money printing, too-big-to-fail policies, and the COVID-19 response have accelerated the transition toward digital currencies and social credit systems. This chapter documents the open criminality, moral bankruptcy, and technological infrastructure being implemented for total economic control.',
+    headerImage: '/images/chapters/modern-financial-control.png',
     sections: [
       {
         title: '2008 Crisis - House of Cards Collapses',
@@ -3279,6 +3289,7 @@ export const chapterContents: ChapterContent[] = [
     period: 'Present - Future',
     videoTimestamp: '1:54:00-2:09:30',
     introduction: 'The culmination of monetary history points toward the fulfillment of biblical prophecy regarding end-times financial control. The current system is designed to condition humanity for acceptance of a mark-based economy where buying and selling are completely controlled by a global authority. This chapter reveals the spiritual warfare behind financial systems and offers the only true solution: Jesus Christ.',
+    headerImage: '/images/chapters/biblical-prophecy.webp',
     sections: [
       {
         title: 'The Phoenix - Satan\'s Fiery Rebirth Symbol',
@@ -3298,7 +3309,8 @@ export const chapterContents: ChapterContent[] = [
           'Phoenix symbol appears on Economist magazine, corporate logos, government seals',
           'Represents planned destruction and rebirth of financial system',
           'Ultimate goal: rule earth as false god of light'
-        ]
+        ],
+        infographic: 'phoenix-prophecy'
       },
       {
         title: 'Money as Symbol of the Fall - The Quince Connection',

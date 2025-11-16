@@ -847,56 +847,64 @@ export const chapters = [
     title: 'Ancient Foundations',
     period: '2000 BC - 600 AD',
     description: 'From biblical currency manipulation to the first coins and early financial systems',
-    color: 'from-amber-600 to-orange-700'
+    color: 'from-amber-600 to-orange-700',
+    image: undefined // Optional: '/images/chapters/ancient-foundations.jpg'
   },
   {
     slug: 'medieval-banking',
     title: 'Medieval Banking',
     period: '600 - 1400 AD',
     description: 'The emergence of paper money, fractional reserve banking, and early bond markets',
-    color: 'from-orange-600 to-red-700'
+    color: 'from-orange-600 to-red-700',
+    image: undefined // Optional: '/images/chapters/medieval-banking.jpg'
   },
   {
     slug: 'banking-houses',
     title: 'Rise of Banking Houses',
     period: '1400 - 1700 AD',
     description: 'From the Medici empire to the Bank of England and early stock exchanges',
-    color: 'from-red-600 to-rose-700'
+    color: 'from-red-600 to-rose-700',
+    image: undefined // Optional: '/images/chapters/banking-houses.jpg'
   },
   {
     slug: 'industrial-revolution',
     title: 'Industrial Revolution & Central Banking',
     period: '1700 - 1900 AD',
     description: 'The Rothschild empire, American financial wars, and robber baron consolidation',
-    color: 'from-rose-600 to-pink-700'
+    color: 'from-rose-600 to-pink-700',
+    image: undefined // Optional: '/images/chapters/industrial-revolution.jpg'
   },
   {
     slug: 'federal-reserve',
     title: 'Federal Reserve Era',
     period: '1900 - 1971 AD',
     description: 'Central banking victory, Great Depression wealth transfer, and Bretton Woods system',
-    color: 'from-pink-600 to-purple-700'
+    color: 'from-pink-600 to-purple-700',
+    image: undefined // Optional: '/images/chapters/federal-reserve.jpg'
   },
   {
     slug: 'fiat-system',
     title: 'Fiat Currency System',
     period: '1971 - 2008 AD',
     description: 'Nixon Shock, petrodollar system, deregulation, and derivative speculation bubbles',
-    color: 'from-purple-600 to-indigo-700'
+    color: 'from-purple-600 to-indigo-700',
+    image: undefined // Optional: '/images/chapters/fiat-system.jpg'
   },
   {
     slug: 'modern-control',
     title: 'Modern Financial Control',
     period: '2008 - Present',
     description: 'Too big to fail, quantitative easing, COVID acceleration, and digital currency preparation',
-    color: 'from-indigo-600 to-blue-700'
+    color: 'from-indigo-600 to-blue-700',
+    image: undefined // Optional: '/images/chapters/modern-control.jpg'
   },
   {
     slug: 'biblical-prophecy',
     title: 'Biblical Prophecy & Future',
     period: 'Present - Future',
     description: 'End times financial system, mark of the beast, and spiritual solutions to worldly problems',
-    color: 'from-blue-600 to-cyan-700'
+    color: 'from-blue-600 to-cyan-700',
+    image: undefined // Optional: '/images/chapters/biblical-prophecy.jpg'
   }
 ];
 
