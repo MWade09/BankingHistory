@@ -65,13 +65,13 @@ export const chapterContents: ChapterContent[] = [
         significance: 'Establishes biblical template for using crisis to systematically transfer wealth and enslave populations - pattern repeated in every major financial crisis throughout history including 2008 and COVID-19.',
         images: [
           {
-            src: '/images/ancient-foundations/joseph-egypt-art.jpg',
+            src: '/images/ancient-foundations/Joseph-Genesis47.png',
             alt: 'Joseph implementing progressive enslavement system in Egypt',
             caption: 'Joseph in Egypt - Biblical account shows first documented example of using crisis to systematically transfer wealth and enslave populations',
             credit: 'Public Domain'
           },
           {
-            src: '/images/ancient-foundations/egyptian-grain-storage.jpg',
+            src: '/images/ancient-foundations/joseph-grain.jpg',
             alt: 'Egyptian grain storage system used for economic control',
             caption: 'Ancient Egyptian grain storage - Joseph used famine and grain monopoly to extract money, livestock, land, and finally freedom itself',
             credit: 'Museum Archives'
@@ -93,10 +93,22 @@ export const chapterContents: ChapterContent[] = [
         significance: 'First standardized currency giving rulers unprecedented control over money supply through minting and debasement - establishing state intermediation in all transactions and foreshadowing modern fiat control.',
         images: [
           {
-            src: '/images/ancient-foundations/egyptian-grain-storage.jpg',
-            alt: 'Egyptian grain storage system used for economic control',
-            caption: 'Ancient Egyptian grain storage - Joseph used famine and grain monopoly to extract money, livestock, land, and finally freedom itself',
-            credit: 'Museum Archives'
+            src: '/images/ancient-foundations/lydia-coins.jpg',
+            alt: 'Ancient Lydian coins - First standardized currency',
+            caption: 'Ancient Lydian coins - First standardized currency giving rulers control over money supply through minting and debasement',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/ancient-foundations/lydian-art.jpg',
+            alt: 'Lydian art depicting coinage',
+            caption: 'Ancient Lydian art',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/ancient-foundations/lydia.webp',
+            alt: 'Lydian Cave Structure',
+            caption: 'Ancient Lydian Structure',
+            credit: 'Public Domain'
           }
         ],
       },
@@ -114,6 +126,20 @@ export const chapterContents: ChapterContent[] = [
           'War decided by which side maintained sounder money.'
         ],
         significance: 'First currency crisis demonstrating fatal pattern repeated throughout history: debasement to fund war causes economic collapse and defeat regardless of military strength - war won by side with sound money.',
+        images: [
+          {
+            src: '/images/ancient-foundations/Peloponnesian-war.png',
+            alt: 'Battle scene depicting Peloponnesian War',
+            caption: 'Depiction of Peloponnesian War',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/ancient-foundations/currency-debasement.png',
+            alt: 'Image of currency debasement over time',
+            caption: 'Image illustrating the process of currency debasement',
+            credit: 'Public Domain'
+          }
+        ],
         infographic: 'currency-debasement'
       },
       {
@@ -129,7 +155,21 @@ export const chapterContents: ChapterContent[] = [
           'God hates financial oppression especially when committed under religious pretense.',
           'Temple cleansing: God will not tolerate financial oppression in His name.'
         ],
-        significance: 'Only instance of Christ using violence - against financial oppression in temple - revealing God\'s hatred of monetary manipulation exploiting faith, especially preventing poor from accessing God.'
+        significance: 'Only instance of Christ using violence - against financial oppression in temple - revealing God\'s hatred of monetary manipulation exploiting faith, especially preventing poor from accessing God.',
+        images: [
+          {
+            src: '/images/ancient-foundations/Jesus-temple-money.png',
+            alt: 'Jesus flipping the tables of money changers in the temple',
+            caption: 'Depiction of Jesus flipping the table in the temple',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/ancient-foundations/corrupt-marketplace.png',
+            alt: 'Image of corrupt marketplace practices',
+            caption: 'Image illustrating the corrupt practices in the marketplace',
+            credit: 'Public Domain'
+          }
+        ],
       },
       {
         title: 'Julius Caesar - Murdered for Monetary Reform Serving People',
@@ -147,6 +187,20 @@ export const chapterContents: ChapterContent[] = [
           'Monetary reform challenging elite financial control is most dangerous thing political leader can attempt.'
         ],
         significance: 'Reveals assassinations throughout history (Caesar, Lincoln, Kennedy) linked to monetary reforms serving people rather than banking elite - establishing deadly consequences for leaders challenging financial control.',
+        images: [
+          {
+            src: '/images/ancient-foundations/julius-caesar.jpg',
+            alt: 'Julius Caesar assassinated by senators',
+            caption: 'Depiction of Julius Caesar being assassinated by senators',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/ancient-foundations/roman-coin.jpg',
+            alt: 'Image of corrupt marketplace practices',
+            caption: 'Image illustrating the corrupt practices in the marketplace',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Following Gallic conquests, Caesar returned 48 BC with vast war gold',
           'Minted abundant coinage for everyone, not just elite',
@@ -264,6 +318,20 @@ export const chapterContents: ChapterContent[] = [
           'Would eventually enable complete fraud of fiat currency created from nothing with no backing.'
         ],
         significance: 'First separation of currency from real wealth, establishing precedent that symbols (paper, electronic entries) can represent value - enabling future complete divorce from gold/silver backing and unlimited fiat creation.',
+        images: [
+          {
+            src: '/images/medieval-banking/chinese-paper-money.jpg',
+            alt: 'Great Ming Banknote',
+            caption: 'Great Ming Banknote from 1375 AD',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/medieval-banking/marco-polo.jpg',
+            alt: 'Marco Polo',
+            caption: 'Marco Polo, the Venetian merchant and explorer who documented Chinese paper money system',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Paper certificates emerged as convenience for merchants avoiding heavy metal transport',
           'Critical distinction: Paper was substitute FOR wealth (gold/silver), not wealth itself',
@@ -287,6 +355,20 @@ export const chapterContents: ChapterContent[] = [
           'Fundamental fraud: Create money from nothing through fractional reserves, charge interest on fabricated money, manipulate economies through credit expansion/contraction, transfer real wealth during manufactured collapse.'
         ],
         significance: 'THE pivotal discovery enabling modern financial slavery - fractional reserve banking allows creating money from nothing, manipulating business cycles, and seizing real wealth during manufactured crises.',
+        images: [
+          {
+            src: '/images/medieval-banking/goldsmith-banking.jpg',
+            alt: 'Goldsmith banking illustration',
+            caption: 'London goldsmith bankers',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/medieval-banking/goldsmith-color.jpg',
+            alt: 'Colorized illustration of goldsmith banking',
+            caption: 'Depiction of London goldsmith bankers',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Goldsmiths issued paper receipts for gold deposits in secure vaults',
           'Pivotal observation: Most people never redeemed receipts simultaneously',
@@ -313,6 +395,20 @@ export const chapterContents: ChapterContent[] = [
           'Modern digital fiat functions technically but serves to transfer wealth to money creators.'
         ],
         significance: 'Proves currency is fundamentally record-keeping, not physical objects - explaining how modern digital fiat functions technically but also how it enables fraud by those controlling the records.',
+        images: [
+          {
+            src: '/images/medieval-banking/tally-sticks.jpg',
+            alt: 'Medieval tally sticks',
+            caption: 'Medieval tally sticks used for record-keeping and currency',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/medieval-banking/tally-sticks2.jpg',
+            alt: 'Tally sticks',
+            caption: 'Medieval tally sticks used for record-keeping and currency',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Notched wooden sticks split lengthwise - unique grain pattern prevented forgery',
           'One half to king\'s treasury, other to subject as tamper-proof receipt',
@@ -338,6 +434,26 @@ export const chapterContents: ChapterContent[] = [
           'Principles established: Governments controlled through debt, manufactured crises justify bond issuance, bond manipulation allows insider profit while ordinary investors lose, government debt becomes perpetual - rolled over at interest.'
         ],
         significance: 'Established government bonds as mechanism for controlling nations through debt - those holding government debt control policy, pattern operating globally today with catastrophic bond bubble ready to collapse.',
+        images: [
+          {
+            src: '/images/medieval-banking/bonds-veneta.jpg',
+            alt: 'Italian government bonds',
+            caption: 'Italian Prestiti bonds from Venice',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/medieval-banking/medieval-venice-banking.webp',
+            alt: 'Medieval Venetian banking',
+            caption: 'Medieval Venetian city',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/medieval-banking/venetian-banking.jpg',
+            alt: 'Venetian government bonds',
+            caption: 'Venetian government bonds issued to fund wars',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Italian city-states issued bonds (government IOUs) to fund constant warfare',
           'As wars dragged on, more bonds issued causing market value to collapse',
@@ -435,6 +551,26 @@ export const chapterContents: ChapterContent[] = [
           'Established first international banking network with branches in major cities.',
           'Could transfer wealth and credit across borders.'
         ],
+        images: [
+          {
+            src: '/images/banking-houses/medici-bank.jpg',
+            alt: 'Medici Bank',
+            caption: 'Medici Bank building in Florence, Italy',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/banking-houses/medici-family.avif',
+            alt: 'medici family',
+            caption: '',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/banking-houses/medici-chart.webp',
+            alt: 'Medici Family Tree',
+            caption: 'Medici Family Tree showing banking dynasty',
+            credit: 'Public Domain'
+          }
+        ],
         significance: 'Demonstrated how semantic manipulation circumvents religious law, and how banking must operate internationally to escape single-nation control - establishing template for modern multinational banking.'
       },
       {
@@ -451,6 +587,20 @@ export const chapterContents: ChapterContent[] = [
           'Jews filled economic niche, creating resentment and stereotypes.',
           'Word "bank" from Italian "banca" (bench money changers sat on).',
         ],
+        images: [
+          {
+            src: '/images/banking-houses/merchant-of-venice.jpg',
+            alt: 'Merchant of Venice Shylock',
+            caption: 'Merchant of Venice, Trial Scene',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/banking-houses/shylock.jpg',
+            alt: 'Ernst Von Possart as Shylock',
+            caption: 'Ernst Von Possart as Shylock',
+            credit: 'Public Domain'
+          }
+        ],
         significance: 'Reveals how religious laws create economic niches and ethnic stereotypes, and how financial terminology preserves history of money changing practices.'
       },
       {
@@ -466,6 +616,20 @@ export const chapterContents: ChapterContent[] = [
           'Template for corporations operating above national sovereignty.'
         ],
         significance: 'Established template for corporate power exceeding national sovereignty - governmental powers in private hands seeking profit, model continuing through modern multinationals.',
+        images: [
+          {
+            src: '/images/banking-houses/dutch-east-india-company-flag.png',
+            alt: 'Dutch East India Company ship',
+            caption: 'Dutch East India Company ship',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/banking-houses/east-india-emblem.jpg',
+            alt: 'Dutch East India Company emblem',
+            caption: 'Dutch East India Company emblem',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'First company to issue public shares, creating world\'s first stock market',
           'Granted unprecedented governmental powers: wage war, execute without trial, negotiate treaties, coin money, establish colonies',
@@ -486,6 +650,20 @@ export const chapterContents: ChapterContent[] = [
           'Greed and fear create booms and busts transferring wealth from many to few.'
         ],
         significance: 'First recorded speculative bubble revealing how greed and fear - not fundamentals - drive market prices, establishing pattern repeating throughout financial history.',
+        images: [
+          {
+            src: '/images/banking-houses/tulip-price-index.jpg',
+            alt: 'Tulip Price Index',
+            caption: 'Tulip Price Index showing dramatic rise and collapse',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/banking-houses/tulipmania.jpg',
+            alt: 'Tulipmania painting',
+            caption: 'Tulipmania painting depicting the luxurious tulip craze',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Tulips became fashionable status symbols among Dutch elite, creating demand',
           'Speculation took over - people bought solely to resell at higher prices',
@@ -509,6 +687,20 @@ export const chapterContents: ChapterContent[] = [
           'Template replicated worldwide: Private central bank with governmental name, monopoly power to create money, shareholders unknown, special legal privileges, nation permanently indebted.'
         ],
         significance: 'Established deceptive template for private central banks disguised as government institutions - most successful financial fraud in history, replicated worldwide including US Federal Reserve.',
+        images: [
+          {
+            src: '/images/banking-houses/bank-of-england.webp',
+            alt: 'Bank of England building',
+            caption: 'Bank of England building in London',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/banking-houses/first-charter.jpg',
+            alt: 'Bank of England first charter',
+            caption: 'First charter of the Bank of England',
+            credit: 'Public Domain'
+          } 
+        ],
         details: [
           'Named "Bank of England" to deceive people into thinking it was governmental, when it was privately owned',
           'Only £750,000 of promised £1.25 million capital actually received',
@@ -534,6 +726,20 @@ export const chapterContents: ChapterContent[] = [
           'Real wealth is earned from making a living. Speculation doesn\'t create wealth. Speculation transfers wealth based on greed and fear. And this lesson is never learned.'
         ],
         significance: 'Demonstrates how con men capture government control, paper money enables unprecedented fraud, and speculation transfers wealth from masses to insiders - lessons never learned.',
+        images: [
+          {
+            src: '/images/banking-houses/john-law.jpg',
+            alt: 'John Law',
+            caption: 'John Law',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/banking-houses/mississippi-bubble.jpg',
+            alt: 'Mississippi Bubble',
+            caption: 'Image depicting crowds during the Mississippi Bubble craze',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Scottish gambler and convicted murderer who fled Britain, convinced France to implement his monetary theories',
           'Established Bank General and Mississippi Company, painting Louisiana swampland as paradise',
@@ -638,6 +844,20 @@ export const chapterContents: ChapterContent[] = [
           '"Britain lost militarily, America lost financially."'
         ],
         significance: 'Reveals American Revolution was monetary war - currency control leads to political rebellion, and monetary policy is ultimately enforced through violence and economic warfare.',
+        images: [
+          {
+            src: '/images/industrial-revolution/continental-dollar.jpg',
+            alt: 'Continental Dollar',
+            caption: 'Continental Dollar issued during American Revolution',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/industrial-revolution/currency-act.webp',
+            alt: 'Currency Act of 1764',
+            caption: 'Currency Act of 1764 prohibiting colonial currency',
+            credit: 'Public Domain'
+          }
+        ],        
         details: [
           '1764 British Currency Act prohibited colonial currency, ordered taxes paid only in gold/silver coins',
           'Colonies systematically drained of metallic money while other currency forms outlawed',
@@ -662,6 +882,26 @@ export const chapterContents: ChapterContent[] = [
           '1905 Jewish Encyclopedia: From 1817-1848, loaned over $654 million (like loaning TRILLIONS today).'
         ],
         significance: 'Established template for international banking operating above national sovereignty, profiting from all sides of conflicts, and financing government overthrows when policies conflict with banking interests.',
+        images: [
+          {
+            src: '/images/industrial-revolution/rothschild-castle.jpg',
+            alt: 'Rothschild Castle',
+            caption: 'One of the 41 castles owned by the Rothschild family across Europe',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/industrial-revolution/family-crest.png',
+            alt: 'Rothschild Family Crest',
+            caption: 'Rothschild Family Crest',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/industrial-revolution/rothschild-family-tree.webp',
+            alt: 'Rothschild Family Tree',
+            caption: 'Rothschild Family Tree',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Came to OWN Bank of England through Waterloo coup - 5 layers of profit including bond purchase at pennies',
           'Operated above market prices and national laws - arbitraged gold between Paris and London',
@@ -672,16 +912,26 @@ export const chapterContents: ChapterContent[] = [
       },
       {
         title: 'American Civil War - Breaking Up America for Banker Control',
-        content: 'As the world entered the industrial age around the time of the American Civil War, Volume 1 of this documentary showed how the war was really about breaking up the United States for easier banker control. Abraham Lincoln\'s invention of the greenback - printed currency that would later be backed by gold - kept the Union alive without succumbing to banker demands for high-interest war loans.\n\nThis was a direct threat to international banking interests who profit from lending to governments at interest. Some historians argue Lincoln\'s creation of debt-free government currency was a major factor contributing to his assassination. The bankers who wanted to control America through debt were denied that opportunity as long as Lincoln could print greenbacks. Despite the Union\'s victory in the Civil War, the bankers did not give up their goal of monetary control over America.',
+        content: 'As the world entered the industrial age around the time of the American Civil War, Volume 1 of this documentary showed how the war was really about breaking up the United States for easier banker control. International banking interests, particularly the Rothschilds operating through their London banks, viewed a strong unified America as a threat to their global financial dominance. A divided America—split into North and South—would require loans from European banks to finance their separate governments and inevitable conflicts, creating perpetual debt dependency. The bankers actively worked to foment division and supported the Confederacy through financial channels, hoping to break apart the young nation.\n\nWhen the Civil War began in 1861, Lincoln needed massive financing to preserve the Union. He approached the New York banks for loans, but they offered him money at usurious interest rates between 24% and 36%—rates deliberately designed to bankrupt the government and transfer control to banking interests. Lincoln recognized this trap immediately. He understood that borrowing at such rates would enslave the nation to bankers even if the Union won militarily. Instead of accepting these predatory terms, Lincoln made a revolutionary decision that would alter the course of American monetary history and likely seal his fate.\n\nAbraham Lincoln\'s invention of the greenback—printed currency issued directly by the US government without debt to private banks—kept the Union alive without succumbing to banker demands for high-interest war loans. In 1862, Congress passed the Legal Tender Act at Lincoln\'s urging, authorizing the printing of $150 million in United States Notes, which became known as "greenbacks" because of the green ink used on their reverse side. These were debt-free, interest-free notes issued directly by the government to pay soldiers, buy supplies, and finance the war effort. Lincoln expanded this program, eventually printing approximately $450 million in greenbacks by war\'s end. This represented true monetary sovereignty—the government exercising its constitutional right to issue currency without borrowing from or paying interest to private bankers.\n\nLincoln understood the profound significance of what he had done. He stated: "The government should create, issue and circulate all the currency and credit needed to satisfy the spending power of the government and the buying power of consumers. The privilege of creating and issuing money is not only the supreme prerogative of government, but it is the government\'s greatest creative opportunity. By the adoption of these principles, the taxpayers will be saved immense sums of interest." This was a direct threat to international banking interests who profit from lending to governments at interest. The greenback system proved that nations could finance themselves without banker intermediaries, without accumulating crippling debt, and without paying interest on their own money supply.\n\nThe London Times, representing banking interests, published a revealing editorial in response to Lincoln\'s greenbacks: "If that mischievous financial policy which had its origin in the North American Republic should become indurated down to a fixture, then that government will furnish its own money without cost. It will pay off its debts and be without debt. It will become prosperous beyond precedent in the history of the civilized governments of the world. The brains and wealth of all countries will go to North America. That government must be destroyed or it will destroy every monarchy on the globe." This extraordinary admission reveals the banking establishment\'s terror at the prospect of debt-free government currency spreading to other nations.\n\nSome historians argue Lincoln\'s creation of debt-free government currency was a major factor contributing to his assassination on April 14, 1865, just days after the Civil War ended. John Wilkes Booth, the assassin, had mysterious connections to international banking interests and had traveled extensively in Canada where Confederate agents operated. The bankers who wanted to control America through debt were denied that opportunity as long as Lincoln could print greenbacks. Immediately after Lincoln\'s death, the greenback program was systematically dismantled. Despite the Union\'s military victory in the Civil War, the bankers did not give up their goal of monetary control over America—they simply changed tactics, working through legislation to contract the money supply and create economic conditions that would eventually lead to the establishment of a private central bank. Lincoln had won the war but lost the monetary peace.',
         quotes: [
           'Volume 1 showed: Civil War about breaking up America for banker control.',
           '"Lincoln\'s invention of the greenback kept the Union alive."',
-          'Greenback: Printed currency later backed by gold.',
-          'Direct threat to international banking interests profiting from government loans.',
-          'Some historians: Debt-free currency a major assassination factor.',
-          '"Despite defeat, bankers didn\'t stop."'
         ],
         significance: 'Shows how government-issued debt-free currency threatens banking profits from war lending, potentially contributing to Lincoln\'s assassination.',
+        images: [
+          {
+            src: '/images/industrial-revolution/greenback.jpg',
+            alt: 'Greenback Currency',
+            caption: 'Greenback currency issued during the American Civil War',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/industrial-revolution/lincoln.jpg',
+            alt: 'Abraham Lincoln',
+            caption: 'Abraham Lincoln',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Civil War about breaking up America for easier banker control of divided nation',
           'Lincoln invented greenback - printed currency later backed by gold, kept Union alive',
@@ -692,19 +942,34 @@ export const chapterContents: ChapterContent[] = [
       },
       {
         title: 'The Silver Suppression - Creating Long Depression',
-        content: 'Following the Civil War, the bankers implemented a two-pronged legislative attack to contract the American money supply and assert control. The Coinage Act of 1873, known as the "Crime of \'73," demonetized silver. This ended the long tradition of Western miners being able to take their silver to the US Mint for free coinage into currency. The Specie Payment Resumption Act of 1875 then allowed for the convertibility of greenbacks into gold.\n\nThese two acts working together systematically contracted the American money supply, which created what became known as the Long Depression. By 1896, the need for more silver money - which was plentiful in America and not controlled by international bankers - had become the key presidential campaign issue. William Jennings Bryan delivered his famous speech: "You shall not press down upon the brow of labor, this crown of thorns. You shall not crucify mankind on a cross of gold."\n\nBryan was speaking against the banker-controlled gold standard and in favor of silver-backed currency that would expand the money supply and help working people. However, William McKinley won the presidency because, quite simply, the fix was in. The bankers wanted America on the gold standard, which they controlled through their vast gold holdings and international connections. McKinley\'s victory ensured the gold standard would be formalized, keeping monetary control in the hands of those who controlled gold.',
+        content: 'Following the Civil War, the bankers implemented a two-pronged legislative attack to contract the American money supply and assert control. The Coinage Act of 1873, known as the "Crime of \'73," demonetized silver. This ended the long tradition of Western miners being able to take their silver to the US Mint for free coinage into currency. The Specie Payment Resumption Act of 1875 then allowed for the convertibility of greenbacks into gold.\n\nThese two acts working together systematically contracted the American money supply, which created what became known as the Long Depression. By 1896, the need for more silver money - which was plentiful in America and not controlled by international bankers - had become the key presidential campaign issue. William Jennings Bryan delivered his famous speech: "You shall not press down upon the brow of labor, this crown of thorns. You shall not crucify mankind on a cross of gold."\n\nBryan was speaking against the banker-controlled gold standard and in favor of silver-backed currency that would expand the money supply and help working people. However, William McKinley won the presidency because, quite simply, the fix was in. The bankers wanted America on the gold standard, which they controlled through their vast gold holdings and international connections. McKinley\'s victory ensured the gold standard would be formalized, keeping monetary control in the hands of those who controlled gold.\n\nThe silver suppression had devastating economic consequences that lasted for decades. The Long Depression, spanning from 1873 to 1896, saw widespread unemployment, farm foreclosures, and industrial stagnation. Farmers, who formed the backbone of the American economy, were particularly hard hit as deflation drove down crop prices while their debts remained fixed. This created a cycle of poverty where farmers couldn\'t pay their mortgages, leading to bank failures and further economic contraction. The suppression of silver prevented the natural expansion of the money supply that would have occurred with America\'s growing population and economy, effectively strangling economic growth.\n\nThe political battle over silver became one of the most intense in American history. The Democratic Party, representing farmers and working people, pushed for the free coinage of silver at a 16:1 ratio with gold, which would have dramatically increased the money supply and eased deflation. Eastern bankers and industrialists, however, fiercely opposed this, fearing inflation would reduce the value of their gold holdings and debts. The debate culminated in the 1896 presidential election, where Bryan\'s "Cross of Gold" speech at the Democratic National Convention electrified supporters but ultimately failed to overcome the bankers\' influence over the media, political machines, and voting process.',
         quotes: [
-          'Coinage Act of 1873: "Crime of \'73" - demonetized silver.',
-          'Ended tradition: Western miners taking silver to US Mint for free coinage.',
-          'Specie Payment Resumption Act of 1875: Allowed convertibility of greenbacks into gold.',
-          'These TWO acts contracted American money supply.',
-          'Created Long Depression.',
-          'By 1896: Need for more silver money was KEY presidential campaign issue.',
           'William Jennings Bryan: "You shall not press down upon the brow of labor, this crown of thorns. You shall not crucify mankind on a cross of gold."',
           'McKinley won because "the fix was in."',
           'Bankers wanted America on gold standard which they controlled.'
         ],
         significance: 'Demonstrated how legislation contracts money supply to create depressions benefiting gold-controlling bankers while impoverishing working people dependent on plentiful silver.',
+        images: [
+          {
+            src: '/images/industrial-revolution/mckinley.jpg',
+            alt: 'William McKinley',
+            caption: 'William McKinley',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/industrial-revolution/coinage-act.jpg',
+            alt: 'Coinage Act of 1873',
+            caption: 'Cartoon Depiction of Coinage Act of 1873 demonetizing silver',
+            credit: 'Public Domain'
+          },
+          
+          {
+            src: '/images/industrial-revolution/bryan.jpg',
+            alt: 'William Jennings Bryan',
+            caption: 'William Jennings Bryan',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Coinage Act 1873 ("Crime of \'73") demonetized silver, ended free coinage tradition',
           'Specie Payment Resumption Act 1875 allowed greenback-gold convertibility',
@@ -727,6 +992,20 @@ export const chapterContents: ChapterContent[] = [
           'Result: 15,000 businesses, 74 railroads, 600 banks went bust.',
         ],
         significance: 'Exposed how financial crises are deliberately engineered to transfer real assets to banking elite at fire-sale prices while destroying competition and public wealth.',
+        images: [
+          {
+            src: '/images/industrial-revolution/jp-morgan.webp',
+            alt: 'JP Morgan',
+            caption: 'JP Morgan',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/industrial-revolution/panic-1893.jpg',
+            alt: 'Panic of 1893',
+            caption: 'Panic of 1893 Florence Kelley in Chicago',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Inherited wealth from father\'s treasonous Rothschild dealings during Civil War',
           'Panic of 1893 created BY DESIGN with Rothschild agent Belmont - bond dumping exclusively for gold',
@@ -750,6 +1029,20 @@ export const chapterContents: ChapterContent[] = [
           'Became America\'s first billionaire.'
         ],
         significance: 'Reveals how childhood trauma and false religiosity combined with ruthless business tactics to create American monopoly capitalism and first billionaire.',
+        images: [
+          {
+            src: '/images/industrial-revolution/rockefeller-john.jpg',
+            alt: 'John D. Rockefeller',
+            caption: 'John D. Rockefeller',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/industrial-revolution/standard-oil.jpg',
+            alt: 'Standard Oil Stock Certificate',
+            caption: 'Standard Oil Stock Certificate',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'Father was huckster selling crude oil as cure-all, abandoned family - mother tied and beat young JD',
           'Tragic childhood explains obsessive desire to manipulate and control all business relationships',
@@ -760,22 +1053,39 @@ export const chapterContents: ChapterContent[] = [
       },
       {
         title: 'Northern Securities Company - The Money Trust',
-        content: 'In 1901, a pivotal moment in American financial history occurred when the banking interests of JP Morgan merged with the oil business of JD Rockefeller and the top railroad company owners. This merger created the Northern Securities Company, where 122 companies agreed to pool their capital together. The total amount of pooled capital was staggering: $22 billion in 1901 dollars.\n\nTo put this in perspective, $22 billion in 1901 would be worth hundreds of billions or even trillions in today\'s currency when adjusted for inflation. This represented an unprecedented concentration of economic power in American history. The Sherman Antitrust Act was used to dissolve the Northern Securities Company in 1904 because it represented an illegal monopoly that threatened competition and democracy itself.\n\nHowever, while the legal structure of Northern Securities was dissolved, the capital never disappeared. The same banking and business class that had pooled their resources simply reorganized their control through other means. They had tasted the power of combination and coordination. They wanted it all - complete control over banking, industry, transportation, and ultimately the currency itself. The dissolution of Northern Securities was a temporary setback on the road to establishing the Federal Reserve in 1913, which would give these same interests permanent control over America\'s money supply.',
+        content: 'The Northern Securities Company represented the culmination of the Industrial Revolution\'s concentration of wealth and power in the hands of a few elite families. Formed in November 1901 through a merger orchestrated by JP Morgan, the company combined the vast railroad empires of James J. Hill (Great Northern Railway), Edward Harriman (Union Pacific), and John D. Rockefeller\'s Standard Oil interests. This was no ordinary business merger—it was a deliberate consolidation of economic power that threatened to monopolize America\'s transportation infrastructure and industrial capacity.\n\nThe company\'s formation was shrouded in secrecy, with Morgan arranging the deal during a private meeting at his New York home. The Northern Securities Company was capitalized at $400 million and controlled over 30,000 miles of railroad track—nearly one-third of all American railroads. This gave the company unprecedented control over shipping rates, industrial development, and regional economies. Farmers in the Midwest, manufacturers in the East, and miners in the West all depended on these railroads for their livelihoods. By controlling the railroads, Morgan and his associates could dictate the terms of American commerce.\n\nThe merger was challenged almost immediately by President Theodore Roosevelt, who saw it as a direct threat to his "Square Deal" policies promoting fair competition. Roosevelt\'s administration filed suit under the Sherman Antitrust Act of 1890, marking the first time the federal government used antitrust laws against a major corporation. The case went to the Supreme Court, where in March 1904, the Court ruled 5-4 that Northern Securities was an illegal monopoly that restrained interstate commerce. The company was ordered dissolved.\n\nHowever, the dissolution was largely symbolic. The individual railroad companies continued to operate as before, and the same banking interests maintained their influence through interlocking directorates and financial relationships. Morgan himself famously remarked that the Supreme Court decision was "the silliest piece of legislation" he had ever seen. The Northern Securities case established the precedent that corporations could be held accountable under antitrust laws, but it also revealed the limitations of legal remedies against concentrated financial power. The real victory for the money trust came nine years later with the creation of the Federal Reserve, which institutionalized the same concentration of power that Northern Securities had attempted to achieve through private enterprise.',
         quotes: [
-          '1901: Banking interests of JP Morgan merged with oil business of JD Rockefeller and top railroad company owners.',
-          '122 companies agreed to pool capital.',
-          'Staggering total: $22 BILLION (1901 dollars).',
-          'Sherman Antitrust Act dissolved company 1904.',
-          'BUT capital never disappeared.',
-          'Business and banking class wanted it all.'
+          'Morgan remarked that the Supreme Court decision was "the silliest piece of legislation" he had ever seen.',
+          'Northern Securities controlled over 30,000 miles of railroad track—nearly one-third of all American railroads.',
+          'The merger was a deliberate consolidation of economic power that threatened to monopolize America\'s transportation infrastructure.'
         ],
-        significance: 'Demonstrated unprecedented concentration of economic power and revealed elite\'s goal of total control over banking, industry, transportation, and currency.',
+        significance: 'Marked the first major antitrust victory against corporate monopoly power, but revealed the limitations of legal remedies against concentrated financial control that would later be institutionalized through the Federal Reserve.',
+        images: [
+          {
+            src: '/images/industrial-revolution/northern-securities.png',
+            alt: 'Northern Securities Company stock certificate',
+            caption: 'Northern Securities Company stock certificate',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/industrial-revolution/cartoon-northern-securities.jpg',
+            alt: 'Northern Securities Cartoon',
+            caption: 'Northern Securities Cartoon Depicting Monopoly Breakup',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
-          '1901: Morgan banking, Rockefeller oil, top railroads merged - 122 companies pooled $22 BILLION',
-          'Unprecedented concentration worth hundreds of billions to trillions today',
-          'Sherman Antitrust dissolved Northern Securities 1904 as illegal monopoly threatening democracy',
-          'Capital never disappeared - same class reorganized control through other means',
-          'Dissolution temporary setback on road to Federal Reserve 1913 giving permanent currency control'
+          'Formed November 1901 through JP Morgan-orchestrated merger',
+          'Combined railroads of James J. Hill, Edward Harriman, and Rockefeller interests',
+          'Capitalized at $400 million, controlled 30,000+ miles of track',
+          'Nearly one-third of all American railroads under single control',
+          'Challenged by Theodore Roosevelt under Sherman Antitrust Act',
+          'Supreme Court ruled 5-4 against company in 1904 as illegal monopoly',
+          'First major use of federal antitrust laws against corporation',
+          'Dissolution largely symbolic - individual companies continued operating',
+          'Same banking interests maintained control through interlocking directorates',
+          'Precedent for antitrust enforcement but revealed limitations against financial power',
+          'Led to Federal Reserve creation in 1913 institutionalizing same concentration'
         ]
       }
     ],
@@ -977,6 +1287,20 @@ export const chapterContents: ChapterContent[] = [
           'Over 90% of our currency supply comes not from each nation\'s central bank, but from the banking system.'
         ],
         significance: 'This system allows banks to create money from nothing, multiply it tenfold, charge interest on it, and build the most extravagant buildings in every city while ordinary people struggle with debt.',
+        images: [
+          {
+            src: '/images/federal-reserve/fractional-reserve-chart.png',
+            alt: 'Fractional Reserve Banking Process',
+            caption: 'Diagram illustrating the fractional reserve banking process where a $100 deposit is multiplied into $1,000 in circulating money',
+            credit: 'Created for this project'
+          },
+          {
+            src: '/images/federal-reserve/monetary-illusion.png',
+            alt: 'Cartoon depicting the illusion of money creation by banks',
+            caption: 'A cartoon illustrating the deceptive nature of money creation by banks',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'You deposit $100, bank loans $90, keeps $10 reserve—that $90 gets redeposited and loaned again in cascade',
           'Your original $100 becomes $1,000 in circulating money—$900 created from nothing through accounting',
@@ -1006,15 +1330,15 @@ export const chapterContents: ChapterContent[] = [
         ],
         images: [
           {
-            src: '/images/federal-reserve/national-debt-chart.jpg',
-            alt: 'US national debt growth from 1913 to present showing exponential increase',
-            caption: 'US National Debt growth since Federal Reserve creation in 1913 - exponential increase as 100% of income tax goes to interest payments',
-            credit: 'US Treasury Department'
+            src: '/images/federal-reserve/national-debt-chart.png',
+            alt: 'US national debt growth chart',
+            caption: 'US National Debt growth chart - exponential increase as 100% of income tax goes to interest payments',
+            credit: 'Public Domain'
           },
           {
-            src: '/images/federal-reserve/interest-payments-chart.jpg',
-            alt: 'Annual interest payments to Federal Reserve on national debt',
-            caption: 'Annual interest payments on the national debt - all individual income tax revenue is absorbed by these payments before any government services are funded',
+            src: '/images/federal-reserve/debt-clock.png',
+            alt: 'National Debt Clock showing interest payments consuming all income tax revenue',
+            caption: 'US Debt Clock illustrating the reality of a dead system where all income tax goes to interest payments',
             credit: 'Congressional Budget Office'
           }
         ]
@@ -1030,6 +1354,18 @@ export const chapterContents: ChapterContent[] = [
           'Three things happen in 1913 that every American needs to know about: The Federal Reserve took over America. The Anti-Defamation League was established and the 16th Amendment allowing for an unconstitutional tax on America\'s labor was never ratified.'
         ],
         significance: 'The income tax system operates through intimidation and assumption of legality, not actual law. IRS agents who discovered this truth were forced to resign rather than have the agency answer their questions.',
+        images: [
+          {
+            src: '/images/federal-reserve/IRS.jpg',
+            alt: 'IRS logo',
+            caption: 'The IRS logo represents the agency responsible for enforcing income tax laws, despite the lack of legal basis for such taxes.'
+          },
+          {
+            src: '/images/federal-reserve/ADL.avif',
+            alt: 'Anti-Defamation League logo',
+            caption: 'The Anti-Defamation League was established to protect certain interests, particularly in the context of income tax and banking.'
+          }
+        ],
         details: [
           'THREE THINGS HAPPENED IN 1913:',
           '1. Federal Reserve Act - private bank takes over currency',
@@ -1064,26 +1400,46 @@ export const chapterContents: ChapterContent[] = [
         ],
         images: [
           {
-            src: '/images/federal-reserve/gold-confiscation-1933.jpg',
+            src: '/images/federal-reserve/fdr-signs-goldconfiscation.jpg',
             alt: '1933 gold confiscation order forcing Americans to surrender gold',
             caption: 'Executive Order 6102 (1933) - FDR forced Americans to surrender gold to the Federal Reserve under threat of prison',
-            credit: 'National Archives'
+            credit: 'Public Domain'
           },
           {
             src: '/images/federal-reserve/fort-knox.jpg',
             alt: 'Fort Knox gold depository - contents never fully audited',
             caption: 'Fort Knox gold depository - American gold stored here after 1933 confiscation, never fully audited since',
-            credit: 'US Mint'
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/federal-reserve/louis-mcfadden.jpg',
+            alt: 'Louis McFadden - Congressman and critic of the Federal Reserve',
+            caption: 'Louis McFadden - Congressman who fiercely criticized the Federal Reserve and its role in the banking system.',
+            credit: 'Public Domain'
           }
         ]
       },
       {
         title: 'Bretton Woods Gold Exchange',
-        content: 'In July 1944, representatives from 44 allied nations gathered at the Mount Washington Hotel in Bretton Woods, New Hampshire, to establish a new international monetary order that would govern the post-World War II global economy. The resulting Bretton Woods Agreement created a two-tier currency system: the US dollar was pegged to gold at $35 per ounce, and all other world currencies were pegged to the dollar rather than directly to gold. This gave the United States what French Finance Minister Valéry Giscard d\'Estaing would later call an "exorbitant privilege"—America could print dollars, and the world was forced to hold them as if they were gold.\n\nAt the end of World War II, the United States held approximately two-thirds of the world\'s monetary gold reserves. European nations were flooded with American dollars from war financing and the Marshall Plan reconstruction aid, making the dollar truly "as good as gold" for international transactions. The system worked remarkably well through the 1950s as America maintained fiscal discipline. However, the 1960s brought dramatic changes. The United States simultaneously increased spending on ambitious social programs under Lyndon Johnson\'s "Great Society" initiative and escalated the costly Vietnam War. This dual spending surge created massive deficits, and America began printing far more dollars than it had gold to back.\n\nForeign nations, particularly France under President Charles de Gaulle, began to realize that America did not have enough gold to back all the dollars in circulation. De Gaulle was the first to call America\'s bluff. In 1965, he publicly criticized the dollar\'s privileged position and announced France would begin converting its dollar reserves into gold. He called the arrangement fundamentally unfair, allowing America to finance its deficits and foreign policy simply by printing paper while other nations had to earn dollars through exports or borrow them at interest. Other nations followed France\'s lead, creating a run on American gold reserves. From 1959 to 1971, the United States hemorrhaged gold, losing approximately 50 percent of its reserves as foreign central banks redeemed dollars for gold. By 1971, the situation became critical—America\'s gold reserves had dwindled to dangerously low levels, and there was no end in sight to foreign redemptions.\n\nOn August 15, 1971, President Richard Nixon made a stunning announcement that would fundamentally transform the global monetary system. He declared a "temporary" suspension of dollar convertibility into gold, stating: "I have directed Secretary Connelly to suspend temporarily the convertibility of the dollar into gold or other reserve assets except in amounts and conditions determined to be in the interest of monetary stability and in the best interest of the United States." This "temporary" suspension became permanent—the gold window never reopened. With this single act, Nixon completed the transition to pure fiat currency with no backing by precious metals whatsoever. The world\'s currencies were tied to the US dollar, and the US dollar was now tied to nothing but confidence and force.\n\nThe dollar continued as the world reserve currency primarily due to the massive size of the US economy, overwhelming military power, and critically, the petrodollar system established in 1973-1974 which forced oil-producing nations to price petroleum in dollars only. But the fundamental fraud was now complete: the entire global monetary system was based on currency created from nothing, backed by nothing, with no constraints on creation except the willingness of populations to continue accepting it. The Bretton Woods collapse represented the final severing of money from real value, enabling unlimited currency creation and setting the stage for the massive debt expansion, financial speculation, and wealth inequality that would characterize the following decades.',
+        content: 'In July 1944, representatives from 44 allied nations gathered at the Mount Washington Hotel in Bretton Woods, New Hampshire, to establish a new international monetary order that would govern the post-World War II global economy. The resulting Bretton Woods Agreement created a two-tier currency system: the US dollar was pegged to gold at $35 per ounce, and all other world currencies were pegged to the dollar rather than directly to gold. This gave the United States what French Finance Minister Valéry Giscard d\'Estaing would later call an "exorbitant privilege"—America could print dollars, and the world was forced to hold them as if they were gold.\n\nAt the end of World War II, the United States held approximately two-thirds of the world\'s monetary gold reserves. European nations were flooded with American dollars from war financing and the Marshall Plan reconstruction aid, making the dollar truly "as good as gold" for international transactions. The system worked remarkably well through the 1950s as America maintained fiscal discipline. However, the 1960s brought dramatic changes. The United States simultaneously increased spending on ambitious social programs under Lyndon Johnson\'s "Great Society" initiative and escalated the costly Vietnam War. This dual spending surge created massive deficits, and America began printing far more dollars than it had gold to back.\n\nForeign nations, particularly France under President Charles de Gaulle, began to realize that America did not have enough gold to back all the dollars in circulation. De Gaulle was the first to call America\'s bluff. In 1965, he publicly criticized the dollar\'s privileged position and announced France would begin converting its dollar reserves into gold. He called the arrangement fundamentally unfair, allowing America to finance its deficits and foreign policy simply by printing paper while other nations had to earn dollars through exports or borrow them at interest. Other nations followed France\'s lead, creating a run on American gold reserves. From 1959 to 1971, the United States hemorrhaged gold, losing approximately 50 percent of its reserves as foreign central banks redeemed dollars for gold. By 1971, the situation became critical—America\'s gold reserves had dwindled to dangerously low levels, and there was no end in sight to foreign redemptions.',
         quotes: [
           'For a short time, the US dollar became as good as gold.'
         ],
         significance: 'Established the dollar as the world reserve currency, setting up the system that Nixon would later abandon in 1971 when foreign nations called America\'s bluff.',
+        images: [
+          {
+            src: '/images/federal-reserve/bretten-woods-sign.jpg',
+            alt: 'Bretton Woods Conference sign',
+            caption: 'Bretton Woods Conference (1944) - established new international monetary order with dollar pegged to gold',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/federal-reserve/johnson.jpg',
+            alt: 'Lyndon Johnson - President during the Great Society and Vietnam War',
+            caption: 'Lyndon Johnson (1963-1969) - President who escalated US involvement in Vietnam and launched Great Society programs',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
           'July 1944: 44 nations created two-tier system—currencies pegged to dollar, dollar pegged to gold at $35/oz',
           'America held 2/3 world gold after WWII—gave "exorbitant privilege" to print dollars world must hold',
@@ -1170,20 +1526,24 @@ export const chapterContents: ChapterContent[] = [
         quotes: [
           'Nixon: "I have directed Secretary Connley to suspend temporarily the convertibility of the dollar into gold or other reserve assets except in amounts and conditions determined to be in the interest of monetary stability and in the best interest of the United States."',
           'Nixon: "The United States has always been and will continue to be a forward-looking and trustworthy trading partner."',
-          '"The United States lost 50% of its gold from 1959 to 1971."',
-          '"The world\'s currencies were tied to the US dollar, and the US dollar was tied to nothing."'
+          'The United States lost 50% of its gold from 1959 to 1971.',
         ],
         significance: 'Completed the transition to pure fiat currency with no backing by precious metals - the final severing of money from real value, enabling unlimited currency creation.',
+        images: [
+          {
+            src: '/images/fiat-system/richard-nixon.jpg',
+            alt: 'Nixon announcing end of gold convertibility',
+            caption: 'Nixon Shock (1971) - announced suspension of dollar convertibility into gold, ending Bretton Woods system',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/fiat-system/gold-reserves.jpg',
+            alt: 'US gold reserves decline chart',
+            caption: 'US Gold Reserves Decline (1959-1971) - America lost 50% of its gold reserves leading up to Nixon Shock',
+            credit: 'Created for this project'
+          }
+        ],
         details: [
-          'August 15, 1971: Nixon\'s shocking announcement',
-          '1960s: US increased spending on social programs AND Vietnam War',
-          'Nations led by France realized US didn\'t have gold to back dollars',
-          'Charles de Gaulle demanded gold back',
-          'America hemorrhaging gold reserves',
-          'US lost 50% of gold from 1959-1971',
-          'Nixon "suspended temporarily" dollar-gold convertibility',
-          'Claimed suspension only "in interest of monetary stability"',
-          'Nixon declared US "trustworthy trading partner"',
           'Ultimate betrayal of Bretton Woods agreement',
           'World currencies tied to dollar, dollar tied to NOTHING',
           'Dollar continued as reserve currency due to US economy size and military',
@@ -1197,24 +1557,23 @@ export const chapterContents: ChapterContent[] = [
         quotes: [
           '"The deal hinged on Saudi Arabia selling its oil exclusively in US dollars."',
           '"In 1975, the US dollar went from a gold standard to an oil standard in 4 years."',
-          'Kissinger made King Faisal "an offer he couldn\'t refuse."',
-          'FOREX market today: Approximately $4 trillion in daily trading.'
         ],
         significance: 'Created artificial global demand for dollars by forcing all oil trade through US currency, maintaining dollar hegemony despite severing from gold and enabling continued currency printing.',
+        images: [
+          {
+            src: '/images/fiat-system/kissinger.webp',
+            alt: 'Henry Kissinger - architect of petrodollar system',
+            caption: 'Henry Kissinger - US Secretary of State who negotiated petrodollar deal with Saudi Arabia',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/fiat-system/king-faisal.jpg',
+            alt: 'King Faisal of Saudi Arabia - agreed to sell oil exclusively in US dollars',
+            caption: 'King Faisal of Saudi Arabia - agreed to petrodollar deal with US in exchange for lifting oil embargo and military protection',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
-          '1973: OPEC oil crisis created opportunity',
-          'Henry Kissinger approached King Faisal of Saudi Arabia',
-          'Made "offer he couldn\'t refuse"',
-          'Deal components: Saudi lifts oil embargo',
-          'Saudi reinvests percentage of profits in United States',
-          'America buys percentage of oil from Saudi Arabia',
-          'America offers military protection',
-          'CRUCIAL HINGE: Saudi sells oil EXCLUSIVELY in US dollars',
-          'Saudi Arabia accepted',
-          'Rest of OPEC nations followed',
-          '1975: Dollar went from gold standard to oil standard in 4 years',
-          'First time ever: currencies float against dollar, dollar floats against nothing',
-          'Birth of FOREX market (~$4 trillion daily trading today)',
           'Created artificial worldwide demand for US dollars',
           'Any nation buying oil must first acquire dollars',
           'US could print unlimited currency knowing global dollar demand guaranteed',
@@ -1228,24 +1587,23 @@ export const chapterContents: ChapterContent[] = [
         quotes: [
           '"Neoliberalism was really neocolonialism."',
           'Paul Volcker succeeded in keeping US dollar as world reserve currency through extreme interest rates.',
-          'Third world held in perpetual debt: "High interest plus low demand created feedback loop."',
-          'America\'s exports sagged due to strong dollar making goods too expensive.'
         ],
         significance: 'Revealed how interest rate manipulation creates neocolonial control - wealthy nations prosper from high rates while third world nations trapped in unpayable debt.',
+        images: [
+          {
+            src: '/images/fiat-system/paul-volcker.webp',
+            alt: 'Paul Volcker - architect of neoliberalism and high interest rates',
+            caption: 'Paul Volcker - Federal Reserve Chairman who raised interest rates to combat inflation and maintain dollar dominance',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/fiat-system/interest-rates-chart.webp',
+            alt: 'Interest Rates Chart - showing the dramatic rise in US interest rates under Volcker',
+            caption: 'Interest Rates Chart - illustrating the impact of Volcker\'s policies on global interest rates',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
-          'Beginning 1979: America and Britain lead neoliberal revolution',
-          'Nation after nation buckled under demands',
-          'Neoliberalism requirements: Cuts to government spending',
-          'Lower taxes (on wealthy)',
-          'Deregulation of industry',
-          'GREATLY increased interest rates',
-          'Paul Volcker: Federal Reserve chairman',
-          'Raised interest rates to unprecedented levels',
-          'Dual purpose: Capital flowed to American bonds for high returns',
-          'Helped maintain dollar as world reserve currency',
-          'High rates made third-world loans IMPOSSIBLE to pay back',
-          'Debts became unpayable traps',
-          'Low demand for third-world exports',
           'Vicious feedback loop of perpetual poverty',
           'Volcker succeeded: Dollar remained reserve currency',
           'BUT: America\'s exports sagged (strong dollar = expensive goods)',
@@ -1263,20 +1621,21 @@ export const chapterContents: ChapterContent[] = [
           'Established precedent: "When jackpot popped, taxpayers cover losses while executives keep profits."'
         ],
         significance: 'Established "too big to fail" principle where profits are privatized but losses socialized, plus CIA money laundering through failed banks.',
+        images: [
+          {
+            src: '/images/fiat-system/reagan.jpg',
+            alt: 'Ronald Reagan - President during S&L crisis',
+            caption: 'Ronald Reagan - President whose policies contributed to the S&L crisis',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/fiat-system/wall-street.jpg',
+            alt: 'Wall Street - center of speculative real estate investment',
+            caption: 'Wall Street - hub of speculative real estate investment during the S&L crisis',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
-          '1982: Tax relief for speculative real estate investment',
-          'Interest rates lowered from Volcker extremes',
-          'Wall Street won: Money flowed for highly valued dollar',
-          'Speculative gains in real estate and stocks',
-          'Oil prices driven down',
-          'Additional surge into Wall Street',
-          'FIRST TIME: Banks went directly into real estate lending',
-          'Massive scale real estate bubble',
-          'Bubble popped, jackpot collapsed',
-          '747 savings and loan banks FAILED',
-          'Profits privatized (bankers/investors made fortunes)',
-          'Losses socialized (taxpayers forced to cover)',
-          'Over HALF A TRILLION DOLLARS in socialized losses',
           'CIA drug money extensively laundered through failed banks',
           'Established dangerous precedent',
           'Reckless speculation + criminal activity + fraud = no consequences',
@@ -1288,24 +1647,25 @@ export const chapterContents: ChapterContent[] = [
         content: 'The stock market crash of October 1987, known as Black Monday, signaled the end of the artificial advantage created by the petrodollar system and neocolonial neoliberalism. But as they say, money never sleeps. Rather than learning lessons about sustainable economics, Wall Street speculated even more wildly. In a stunning demonstration of their power, they crashed the Japanese stock market in just 3 years, sending Japan into an economic depression it has never recovered from.\n\nAlan Greenspan, as Federal Reserve chairman, responded to Black Monday by pumping huge amounts of Federal Reserve notes into the stock market. This action signaled a dangerous new idea: many large Wall Street firms were "too big to fail." If they got into trouble through reckless speculation, the Federal Reserve would print money to save them. This created a growing culture of impunity on Wall Street.\n\nBankers realized they could take massive risks with other people\'s money, knowing that profits would be theirs but losses would be covered by the Fed printing press. Delusions of grandeur grew through complex financial instruments like futures and options. The moral hazard was complete: success meant enormous bonuses, failure meant taxpayer-funded bailouts.',
         quotes: [
           'Black Monday 1987 signaled end of artificial petrodollar/neocolonialism advantage.',
-          '"Money, however, never sleeps."',
-          'Wall Street crashed Japanese stock market in 3 years, sending Japan into depression "it has never recovered from."',
-          'Greenspan pumped huge Federal Reserve notes into stock market, signaling "too big to fail."',
-          'Created "growing culture of impunity" and "delusions of grandeur through futures and options."'
+          'Money, however, never sleeps.',
+          'Wall Street crashed Japanese stock market in 3 years, sending Japan into depression "it has never recovered from.',
         ],
         significance: 'Established Federal Reserve policy of bailing out Wall Street, creating moral hazard where firms take massive risks knowing losses will be socialized.',
+        images: [
+          {
+            src: '/images/fiat-system/greenspan.jpg',
+            alt: 'Alan Greenspan - Federal Reserve Chairman during Black Monday',
+            caption: 'Alan Greenspan - Federal Reserve Chairman who responded to Black Monday by injecting liquidity into the market',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/fiat-system/black-monday-newspaper.jpg',
+            alt: 'Newspaper headline about Black Monday',
+            caption: 'Newspaper coverage of Black Monday and its aftermath',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
-          'October 1987: Black Monday stock market crash',
-          'Signaled end of petrodollar/neocolonial advantage',
-          'Instead of learning lessons: speculated more wildly',
-          'Wall Street crashed Japanese stock market in 3 years',
-          'Japan sent into economic depression',
-          'Japan has NEVER recovered',
-          'Alan Greenspan: Federal Reserve chairman',
-          'Pumped huge Federal Reserve notes into stock market',
-          'Signaled new idea: Many large firms "too big to fail"',
-          'If trouble from reckless speculation: Fed will print money to save them',
-          'Created growing culture of impunity on Wall Street',
           'Bankers could take massive risks with others\' money',
           'Profits = theirs, Losses = covered by Fed printing press',
           'Delusions of grandeur through futures and options',
@@ -1318,33 +1678,27 @@ export const chapterContents: ChapterContent[] = [
         quotes: [
           'LTCM founded 1994, relied on mathematics of TWO Nobel Prize-winning economists.',
           'First 3 years: 21%, 43%, 41% annual returns. Wall Street threw money at LTCM.',
-          'Mathematical model didn\'t account for systemic failure.',
-          '1997 Asian crisis + 1998 Russian collapse = fatal.',
-          'Lost $4.6 billion in less than 4 months.',
-          '"Global financial system came within HOURS of collapse."',
-          'Losses socialized through Fed bailout. "Never learned from mistakes."'
         ],
         significance: 'Demonstrated even Nobel Prize-winning mathematicians cannot eliminate systemic risk, and proved Wall Street learns nothing when losses are always socialized.',
+        images: [
+          {
+            src: '/images/fiat-system/john-meriwether.avif',
+            alt: 'LTCM Founders - Nobel Prize-winning economists',
+            caption: 'LTCM Founders - John Meriwether and other Nobel laureates who created LTCM relying on mathematical models',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/fiat-system/LTCM-stock-exchange.avif',
+            alt: 'LTCM Stock Exchange - collapse of LTCM threatened global financial system',
+            caption: 'LTCM Collapse (1998) - threatened global financial system, leading to Fed-orchestrated bailout',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
-          '1994: Long-Term Capital Management founded as hedge fund',
-          'Relied on mathematical models of TWO Nobel Prize-winning economists',
-          'Determined value of derivatives',
-          'First year: 21% returns',
-          'Second year: 43% returns',
-          'Third year: 41% returns',
-          'Wall Street threw money at LTCM',
-          'Believed Nobel laureates discovered risk-free profits',
-          'Mathematical model had fatal flaw: Didn\'t account for systemic failure',
-          '1997: Asian financial crisis',
-          '1998: Russian economic collapse',
-          'LTCM assumptions proved wrong',
-          'Lost $4.6 BILLION in less than 4 months',
-          'Fund closed',
           'Global financial system came within HOURS of complete collapse',
           'Losses socialized through Fed-orchestrated bailout',
           'Taxpayer-backed funds',
           'Wall Street executives never face consequences',
-          'Never learn from mistakes',
           'System built on leverage, fraud, certainty of bailouts'
         ]
       },
@@ -1352,36 +1706,25 @@ export const chapterContents: ChapterContent[] = [
         title: 'Glass-Steagall Repeal - Removing Depression-Era Protections',
         content: 'In 1999, President Bill Clinton repealed the Glass-Steagall Act, which had been passed in 1933 after the Great Depression. Glass-Steagall was specifically designed to prevent a recurrence of the speculation bubble that caused the 1929 stock market crash by separating investment banking from commercial banking. Investment banks could speculate with investors\' money who understood the risks. Commercial banks could not gamble with depositors\' savings.\n\nWith this restriction removed and Alan Greenspan lowering interest rates to historic lows following the LTCM near-collapse, bankers came up with schemes previously undreamed of. Cheap money piled into tech firms with no viable business plans - companies with nothing more than cool domain names and promises of a "new economy" that defied traditional business fundamentals.\n\nFirms like WorldCom and Enron made vast fortunes through futures and options contracts, criminal market manipulation, massive accounting fraud, and powerful political connections. The tech bubble inflated to absurd proportions. When it burst in late 2001, it would sow the seeds for an even bigger collapse in 2008. Glass-Steagall had been the firewall protecting ordinary depositors from Wall Street gambling. Clinton removed it at the banks\' request, unleashing an era of fraud that continues today.',
         quotes: [
-          'Bill Clinton repealed Glass-Steagall Act in 1999.',
-          'Glass-Steagall passed 1933, designed to prevent recurrence of 1929 crash speculation bubble.',
-          'Separated investment banking from commercial banking.',
-          'With restriction gone + Greenspan lowering rates: "Bankers came up with schemes undreamed of."',
           'Money piled into tech firms with "no viable business plans - cool domain names, new economy."',
           'WorldCom and Enron: "Futures contracts, criminal manipulation, massive fraud, political connections."'
         ],
         significance: 'Removed Depression-era protection separating commercial banking from investment speculation, enabling fraud that led to dot-com bubble and 2008 crisis.',
+        images: [
+          {
+            src: '/images/fiat-system/bill-clinton.jpg',
+            alt: 'Bill Clinton - President who repealed Glass-Steagall Act',
+            caption: 'Bill Clinton - President who signed repeal of Glass-Steagall Act in 1999',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/fiat-system/worldcom.png',
+            alt: 'WorldCom Building - symbol of corporate fraud and accounting scandal',
+            caption: 'WorldCom Building - symbol of corporate fraud and accounting scandal',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
-          '1999: Bill Clinton repealed Glass-Steagall Act',
-          'Glass-Steagall passed 1933 after Great Depression',
-          'Designed to prevent recurrence of 1929 crash',
-          'Separated investment banking from commercial banking',
-          'Investment banks: Could speculate with investors\' money (understood risks)',
-          'Commercial banks: Could NOT gamble with depositors\' savings',
-          'Restriction removed',
-          'Alan Greenspan lowered interest rates to historic lows',
-          'Following LTCM near-collapse',
-          'Bankers created schemes previously undreamed of',
-          'Cheap money piled into tech firms',
-          'No viable business plans',
-          'Cool domain names + "new economy" promises',
-          'Defied traditional business fundamentals',
-          'WorldCom and Enron made vast fortunes',
-          'Futures and options contracts',
-          'Criminal market manipulation',
-          'Massive accounting fraud',
-          'Powerful political connections',
-          'Tech bubble inflated to absurd proportions',
-          'Burst late 2001',
           'Sowed seeds for even bigger 2008 collapse',
           'Glass-Steagall was firewall protecting depositors from Wall Street gambling',
           'Clinton removed it at banks\' request'
@@ -1398,22 +1741,21 @@ export const chapterContents: ChapterContent[] = [
           'Ken Lay: "As far as I\'m concerned, nothing happened in Enron that I didn\'t know about."'
         ],
         significance: 'Exposed deliberate criminal market manipulation causing California energy crisis - not market failure but intentional fraud for profit.',
+        images: [
+          {
+            src: '/images/fiat-system/enron.jpg',
+            alt: 'Enron Building - symbol of corporate fraud and market manipulation',
+            caption: 'Enron Building - symbol of corporate fraud and market manipulation',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/fiat-system/ken-lay.webp',
+            alt: 'Ken Lay - Enron CEO during energy crisis',
+            caption: 'Ken Lay - Enron CEO who denied knowledge of criminal activities during California energy crisis',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
-          'Audio recordings from Enron traders',
-          'Exposed brazen criminality in energy market manipulation',
-          'Led to California electricity crisis',
-          'Trader instructs plant operators to "get a little creative"',
-          '"Come up with a reason to go down"',
-          'Pretend maintenance, "forced outage type thing"',
-          'Response: "That\'s cool... making money hand over fist"',
-          '"Leave us alone. Let us make a little bit of money"',
-          'Another recording: "Sorry, California. Bringing all power out of state"',
-          'Moving out 600+ megawatts',
-          'Response: "They were all crooks. Just didn\'t know how much"',
-          'Ken Lay (Enron CEO): "Nothing happened in Enron I didn\'t know about"',
-          'Admitted full knowledge of criminal activities',
-          'California energy crisis NOT market failure',
-          'Deliberate criminal manipulation',
           'Intentionally created artificial scarcity',
           'Shut down power plants under false pretenses',
           'Profited from resulting price spikes',
@@ -1428,28 +1770,25 @@ export const chapterContents: ChapterContent[] = [
           'September 10, 2001 - Rumsfeld: "According to some estimates, we cannot track $2.3 trillion in transactions. $2.3 trillion with a T. That\'s $8,000 for every man, woman, and child in America."',
           'Pentagon strike "coincidentally" hit accounting division investigating missing trillions.',
           'Rumsfeld "coincidentally" part of think tank calling for "catastrophic and catalyzing event like a new Pearl Harbor" ONE YEAR before 9/11.',
-          'Financial motives: 38 corporations profited hundreds of billions (put options), Larry Silverstein $3.5 billion insurance fraud, $2 billion gold/silver theft, oil manipulation, $240 billion bonds cleared.',
-          '"If you want to know how 9/11 could possibly be an inside job, start with a total of at least $10 trillion."',
+          'If you want to know how 9/11 could possibly be an inside job, start with a total of at least $10 trillion.',
           'War on Terror cost to date: Over $6 TRILLION and growing.'
         ],
         significance: 'Revealed massive financial motives for 9/11 including missing trillions, insurance fraud, bond clearing, and justification for multi-trillion dollar wars.',
+        images: [
+          {
+            src: '/images/fiat-system/rumsfeld.jpg',
+            alt: 'Donald Rumsfeld - Secretary of Defense during 9/11',
+            caption: 'Donald Rumsfeld - Secretary of Defense who announced missing $2.3 trillion in transactions the day before 9/11',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/fiat-system/twin-towers.avif',
+            alt: 'Twin Towers - site of 9/11 attacks with massive financial implications',
+            caption: 'Twin Towers - site of 9/11 attacks with massive financial implications including insurance fraud and gold theft',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
-          'Stock market crash fall 2001',
-          'Partially from 9/11 effects',
-          'Mostly from Enron-type firm collapses (fraud, not real business)',
-          'Sowed seeds for 2008 crisis',
-          'September 10, 2001 (DAY BEFORE): Rumsfeld announcement',
-          'Defense Department cannot track $2.3 TRILLION',
-          'Works out to $8,000 per American',
-          'Rumsfeld promised change',
-          'Next day: World changed differently',
-          'Pentagon strike "coincidentally" hit accounting division',
-          'Made loss impossible to trace',
-          'Rumsfeld "coincidentally" part of powerful fascist think tank',
-          'Called for American hegemony based on "catastrophic catalyzing event"',
-          '"Like a new Pearl Harbor"',
-          'Request made ONE FULL YEAR before September 11, 2001',
-          'Group included president\'s brother',
           'Financial motives staggering:',
           '  - 38 corporations profited hundreds of billions (put options/foreknowledge)',
           '  - Larry Silverstein: Over $3.5 billion insurance fraud on white elephant buildings',
@@ -1471,28 +1810,21 @@ export const chapterContents: ChapterContent[] = [
           'Imagine: "Insurance against losing your bet. This is the world of derivatives."'
         ],
         significance: 'Created shadow banking system of derivatives separating risk from reality, enabling unlimited leverage through layers of abstraction from real value.',
+        images: [
+          {
+            src: '/images/fiat-system/derivatives.jpg',
+            alt: 'Derivatives - example of complex financial instruments',
+            caption: 'Derivatives Chart - example of complex financial instruments used to separate risk from reality',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/fiat-system/derivatives-pyramid.jpg',
+            alt: 'Derivatives Chart - illustrating layers of abstraction in derivative financial instruments',
+            caption: 'Derivatives Chart - illustrating layers of abstraction in derivative financial instruments',
+            credit: 'Created for this project'
+          }
+        ],
         details: [
-          'After dot-com crash: Desperate move to keep money flowing',
-          'Greenspan cut interest rates to historic lows',
-          'Cheap money flowed back at record levels',
-          'Especially to buy derivatives',
-          'Thin line between options contracts and bets',
-          'Sports betting: Never entitled to teams\' revenue',
-          'Value derived from performance of underlying assets',
-          'Hence term "derivatives"',
-          'Imagine insurance against losing bet',
-          'This is derivatives world',
-          'Mid-1990s breakthrough: Young financial geniuses by pool at resort',
-          'Realization: If risk separated from investment = nearly no limit',
-          'Risk prevents bankers from unlimited loans',
-          'What if risk separated from loan itself?',
-          'Derivatives = pools of leveraged debt',
-          'Can be repackaged',
-          'Can be recombined',
-          'Can be resold many times over',
-          'Banking fees every step of way',
-          'Create instruments based on instruments',
-          'Then instruments based on those',
           'Layers upon layers of abstraction',
           'Divorcing system from real underlying value',
           'Inverted pyramid balanced on pinpoint, each layer larger than below'
@@ -1502,40 +1834,25 @@ export const chapterContents: ChapterContent[] = [
         title: 'The Mortgage Fraud',
         content: 'The focal point of the derivatives disaster was the completely fraudulent mortgage market. Corrupt financial institutions offered unrealistic teaser rates to borrowers in contracts they didn\'t understand. People applying for mortgages were explicitly told to lie about their incomes by loan officers who would face no consequences for the fraud. Ratings agencies like Moody\'s and Standard & Poor\'s gave whatever credit rating the banks would pay for, turning AAA ratings into meaningless marketing tools rather than honest risk assessments.\n\nIn congressional testimony, damning evidence emerged. An email from June 22, 2007 discussed a deal called "Timberwolf": "Boy, that Timberwolf was one shitty deal." Yet this "shitty deal" was sold to investors as a quality investment. When a congressman asked the banker, "How much did you sell after June 22?" the banker couldn\'t recall. The congressman pressed: "Your people knew it was a shitty deal. Does that bother you?" The evasive non-answer spoke volumes.\n\nAnother senator questioned: "You don\'t believe it\'s relevant to the customer that you\'re selling a security you\'re betting against?" The banker replied: "Yes" - meaning he didn\'t think it was relevant that his firm was simultaneously selling securities to clients while betting those same securities would fail. Another senator asked: "And the people selling it wouldn\'t even know what the firm\'s position is?" Then the key question: "You are betting against the very product you are selling and you\'re just not troubled by it?" The banker\'s response: "I\'m sorry, I can\'t endorse your characterization."\n\nThis was fraud at every level - from the mortgage application to the ratings agency to the investment bank. And everyone involved knew it was fraud. They just didn\'t care because the profits were enormous and they believed they\'d never face consequences.',
         quotes: [
-          '"People applying for mortgages were told to lie about their incomes."',
-          'Email June 22, 2007: "Boy, that Timberwolf was one shitty deal."',
-          'Congressman: "Your people knew it was a shitty deal. Does that bother you?"',
-          'Senator: "You don\'t believe it\'s relevant to customer that you\'re selling a security you\'re betting against?" Banker: "Yes." [doesn\'t think it\'s relevant]',
-          'Senator: "You are betting against the very product you are selling and you\'re just not troubled by it?"',
-          'Banker: "I\'m sorry, I can\'t endorse your characterization."',
-          'Ratings agencies gave "whatever credit rating banks would pay for."'
+          'People applying for mortgages were told to lie about their incomes.',
+          'Email June 22, 2007: "Boy, that Timberwolf was one shitty deal.',
+          'Congressman: "Your people knew it was a shitty deal. Does that bother you?',
+        ],
+        images: [
+          {
+            src: '/images/fiat-system/timberwolf-deal.jpg',
+            alt: 'Timberwolf Deal - example of fraudulent mortgage-backed security',
+            caption: 'Timberwolf Deal - example of fraudulent mortgage-backed security sold to investors',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/fiat-system/standard-poors.jpg',
+            alt: 'Standard & Poor\'s - ratings agency involved in mortgage fraud',
+            caption: 'Standard & Poor\'s - ratings agency that gave inflated ratings to mortgage-backed securities',
+            credit: 'Public Domain'
+          }
         ],
         significance: 'Exposed complete moral bankruptcy of financial system - fraud at every level from applications to ratings to investment banks selling securities they bet against.',
-        details: [
-          'Focal point: Completely fraudulent mortgage market',
-          'Corrupt institutions offered unrealistic teaser rates',
-          'Contracts borrowers didn\'t understand',
-          'People told to LIE about incomes',
-          'Loan officers told borrowers to commit fraud',
-          'Officers faced no consequences',
-          'Ratings agencies (Moody\'s, S&P) gave whatever rating banks paid for',
-          'AAA ratings = meaningless marketing, not honest risk assessment',
-          'Congressional testimony: Damning evidence',
-          'Email June 22, 2007 re "Timberwolf": "One shitty deal"',
-          'Sold to investors as quality investment',
-          'Congressman: "How much sold after June 22?" Banker: Can\'t recall',
-          'Congressman: "Your people knew it was shitty. Bother you?"',
-          'Evasive non-answer',
-          'Senator: "Not relevant you\'re selling security you\'re betting against?"',
-          'Banker: "Yes" [meaning NOT relevant]',
-          'Firm selling securities to clients WHILE betting they\'d fail',
-          'Senator: "People selling wouldn\'t know firm\'s position?"',
-          'Senator: "Betting against product you\'re selling, not troubled?"',
-          'Banker: "Can\'t endorse your characterization"',
-          'Fraud at EVERY level',
-          'Everyone knew it was fraud',
-          'Didn\'t care: Profits enormous, believed no consequences'
-        ]
       }
     ],
     keyFigures: [
@@ -1640,14 +1957,24 @@ export const chapterContents: ChapterContent[] = [
           '"A few members were even told that there would be martial law in America if we voted no."'
         ],
         significance: 'Established that government serves financial elite, not the people, and will use threats of economic collapse and martial law to extract taxpayer bailouts.',
+        images: [
+          {
+            src: '/images/modern-control/2008-crisis.png',
+            alt: '2008 Financial Crisis - visual representation of the crisis',
+            caption: '2008 Financial Crisis - visual representation of the crisis and its impact on the economy',
+            credit: 'Public Domain'
+          },
+          {
+            src: '/images/modern-control/bailout-debates.webp',
+            alt: 'Congress Bailout Debate - lawmakers debating 2008 financial bailout',
+            caption: 'Congress Bailout Debate - lawmakers debating 2008 financial bailout under threat of economic collapse',
+            credit: 'Public Domain'
+          }
+        ],
         details: [
-          'Derivatives bubble collapse brought down house of cards',
-          'All debt and risk piled onto entire financial system',
           'No separation between central bank, investment banks, stock exchanges, corporations, government, military',
           'Government works for collusion of financial interests, not the people',
           'Financial elite threaten social anarchy unless given taxpayer money',
-          'Congressmen told market would drop 2,000-3,000 points if they voted no',
-          'Some told there would be martial law if bailout rejected',
           'Economic terrorism holding entire nation hostage',
           'Same institutions that caused crisis rewarded with taxpayer money',
           'Homeowners lost properties while banks got bailed out'
@@ -1665,14 +1992,6 @@ export const chapterContents: ChapterContent[] = [
         ],
         significance: 'Exposed complete lack of accountability at Federal Reserve, with trillions given to foreign banks while Inspector General admits not tracking where money went.',
         details: [
-          'Bloomberg reported Fed extended $9 trillion in credit',
-          'Works out to $30,000 per person in America',
-          'Inspector General asked about off-balance sheet transactions',
-          'IG claimed not to have seen the Bloomberg article',
-          'Congressman shocked nobody at Fed tracking this money',
-          'IG admitted money went to financial institutions in Europe and other countries',
-          'When asked which specific institutions: "I don\'t know"',
-          'Example: $9 billion to New Zealand = $3,000 per New Zealand citizen',
           'American taxpayers funding foreign banks',
           'Complete lack of transparency and accountability',
           'Inspector General unable to perform basic oversight function'
@@ -1688,16 +2007,6 @@ export const chapterContents: ChapterContent[] = [
         ],
         significance: 'Institutionalized financial immunity from law - mega banks officially declared too big to prosecute regardless of criminal activity, creating two-tier justice system.',
         details: [
-          'Eric Holder: America\'s Attorney General (chief law enforcement)',
-          'Admitted prosecuting mega banks risks national/global economy',
-          'Size of institutions makes it "difficult" to prosecute them',
-          'Criminal charges might have "negative impact" on economy',
-          'Acknowledged institutions have become "too large"',
-          'Extraordinary admission: corporations above the law due to size',
-          'Banks committed fraud, money laundering, market manipulation',
-          'No criminal prosecutions due to "too big to fail" status',
-          'Rich hold more productive assets than ever',
-          'People hold more debt than ever while thinking they\'re rich',
           'Institutionalized principle of financial immunity',
           'Two-tier justice system: big banks above law, citizens not',
           'If big enough and connected enough: literally cannot be prosecuted'
@@ -1715,19 +2024,6 @@ export const chapterContents: ChapterContent[] = [
         ],
         significance: 'Exposed complete disconnect between banking elite and worker reality - CEO making $31 million has no idea how his $16.50/hour employee can survive.',
         details: [
-          'JP Morgan Chase bank teller in Irvine, California',
-          'Makes $16.50 per hour',
-          'Has one child, age 6',
-          'After tax income: $29,100 per year ($2,425/month)',
-          'One-bedroom apartment in Irvine: $1,600/month',
-          'Mother and daughter sleep in same room',
-          'Budget comes up SHORT $567 per month',
-          'Congressman asked Jamie Dimon what she should do',
-          'Dimon: "I don\'t know. I\'d have to think about that"',
-          'Asked if should take out JP Morgan credit card: "I don\'t know"',
-          'Asked if should overdraft and pay fees: "I don\'t know"',
-          'Jamie Dimon makes $31 MILLION per year',
-          'Cannot suggest how his own employee can afford to live',
           'System makes it mathematically impossible for workers to survive',
           'Complete disconnect between banking executives and worker reality'
         ]
@@ -1744,19 +2040,10 @@ export const chapterContents: ChapterContent[] = [
         ],
         significance: 'Exposed predatory trader mindset and revealed Goldman Sachs, not governments, rules the world - traders dream of recession as opportunity for profit.',
         details: [
-          'BBC interview with anonymous trader',
-          'Traders don\'t care how economy gets fixed',
-          'Their job: make money from crisis',
-          'Trader confession: "I\'ve been dreaming of this moment for 3 years"',
-          'Goes to bed every night dreaming of another recession',
-          '1930s depression made some people rich',
-          'Crisis is "opportunity" to make money',
-          'Economic crisis like cancer - will grow if ignored',
-          'Advice: "Get prepared"',
           'KEY ADMISSION: "Governments don\'t rule the world. Goldman Sachs rules the world."',
           'Goldman Sachs doesn\'t care about rescue packages',
           'Prediction: Savings of millions will vanish in less than 12 months',
-          '"This is just the beginning"',
+          'This is just the beginning',
           'Exposed predatory mindset of financial elite',
           'Revealed who actually holds power (banks, not elected officials)'
         ],
@@ -1774,21 +2061,6 @@ export const chapterContents: ChapterContent[] = [
         ],
         significance: 'Demonstrated how international banking bureaucracy forces sovereign nations to impoverish citizens to bail out foreign banks under economic threats.',
         details: [
-          'Klaus Regling: European Financial Stability Facility',
-          'Irish politician questioned why Irish pay billions for debts unrelated to them',
-          'Purpose: Bail out European banks',
-          'Bondholders were unguaranteed (should have lost money)',
-          'Irish people have no relation to these debts',
-          'Regling gave evasive non-answers about balance and confidence',
-          'Bank in question was DEFUNCT - over, finished',
-          'No bearing on welfare of Irish people',
-          'Required to pay under THREAT from ECB',
-          'Billions going to unguaranteed bondholders',
-          'Irish politician asked three times for real answer',
-          'Regling kept claiming he "addressed the question"',
-          'Irish: "No, you haven\'t addressed the question"',
-          'Moderator cut off questioning saying nothing more to add',
-          'Irish politician\'s assessment: "This isn\'t good"',
           'International banking bureaucrats force nations to impoverish citizens',
           'Protect foreign bank bondholders over sovereign nation\'s people'
         ]
@@ -1807,17 +2079,6 @@ export const chapterContents: ChapterContent[] = [
           'Claimed purpose: stimulate economic recovery',
           'Reality: inflated asset bubbles and increased wealth inequality',
           'Federal Reserve balance sheet: <$1 trillion → >$8 trillion',
-          'Money didn\'t go to ordinary struggling people',
-          'Went to financial institutions to buy toxic assets',
-          'Propped up stock markets despite fraud',
-          'Created artificial asset inflation',
-          'Stocks, bonds, real estate prices soared from printed money, not real growth',
-          'Destroyed value of savings and wages for ordinary people',
-          'Dollar saved in 2008 lost tremendous purchasing power',
-          'Wages couldn\'t keep up with real inflation',
-          'Housing, healthcare, education, food prices soared',
-          'Rich holding assets saw wealth multiply',
-          'Average people holding cash saw standard of living decline',
           'Greatest wealth transfer in history: poor/middle class → financial elite'
         ]
       },
@@ -1833,20 +2094,6 @@ export const chapterContents: ChapterContent[] = [
         ],
         significance: 'Demonstrated how planned crisis used to rapidly implement previously unacceptable control levels - practice run for coming total surveillance and control.',
         details: [
-          'Leonard Ulrich delayed Volume 2 release 4 months for COVID effects',
-          'Made 20-minute COVID introduction',
-          'Film so accurate it was DELETED by YouTube',
-          'Channel shadowbanned for truth-telling',
-          'Ulrich: "COVID-19 was planned, controlled, and used to accelerate transhumanism"',
-          'Film so dark: "Most people not willing to accept what I will show them"',
-          'Alliance of governments, corporations, banks now open about control plan',
-          'Decades-old plan for controlling masses',
-          '"COVID-19 was a practice run"',
-          'UK example: Cannot work without digital ID',
-          'Proved effectiveness of brainwashing/control programs',
-          'Massive currency printing dwarfed previous QE',
-          'Small business destruction',
-          'Corporate consolidation under public health guise',
           'Digital payment systems expanded (cash discouraged for "health")',
           'Surveillance expansion through contact tracing',
           'Populations conditioned to accept control in name of safety'
@@ -1862,11 +2109,8 @@ export const chapterContents: ChapterContent[] = [
         ],
         significance: 'Represents final stage of financial control - programmable money providing absolute surveillance and real-time behavior control, creating infrastructure for mark of beast.',
         details: [
-          'Governments openly rolling out CBDCs and social credit systems',
-          'They know current financial system collapsing',
-          'Central banker: Don\'t know who uses cash ($100 bill, 1,000 peso bill)',
           'KEY ADMISSION: "Central bank will have ABSOLUTE CONTROL"',
-          '"We will have the TECHNOLOGY TO ENFORCE that"',
+          'We will have the TECHNOLOGY TO ENFORCE that',
           'Cash provides privacy and autonomy',
           'CBDCs provide complete surveillance of all transactions',
           'Real-time control over spending',
@@ -1876,12 +2120,6 @@ export const chapterContents: ChapterContent[] = [
           '  - Location limits (geographic restrictions)',
           '  - Approved vendor lists (government-approved businesses only)',
           'UK: "Cannot work without digital ID"',
-          'Every transaction monitored',
-          'Every purchase can be blocked',
-          'Economic life requires digital identity submission',
-          'Tracks every move',
-          'Infrastructure for mark of beast (Revelation 13)',
-          'Complete economic control prophesied in Bible'
         ],
         infographic: 'mark-of-beast'
       },
@@ -1895,29 +2133,6 @@ export const chapterContents: ChapterContent[] = [
           'Year 2018 has passed - their timeline can be disrupted and their plans delayed.'
         ],
         significance: 'Reveals globalist plan for financial reset while proving they are powerful but not all-powerful - their 2018 deadline passed, showing resistance and prayer matter.',
-        details: [
-          'January 1988 Economist magazine cover',
-          'Economist is Rothschild publication',
-          'Phoenix rising from burning fiat currencies',
-          'Dollars, pounds, yen consumed in flames',
-          'Gold coin around phoenix neck',
-          'Year displayed: 2018',
-          'Greek letter phi (Φ) on coin',
-          'Phi = golden ratio in mathematics',
-          'Phi visually resembles 1 and 0 (binary/digital code)',
-          'Suggests fusion of gold with digital technology',
-          'New paradigm: Gold + cryptocurrency + digital control grid',
-          'CBDCs represent this fusion today',
-          'CRUCIAL: Year 2018 has come and gone',
-          'Complete system not yet implemented',
-          'Proves New World Order powerful but NOT all-powerful',
-          'Their timeline CAN be disrupted',
-          'Their plans CAN be delayed',
-          'Human resistance matters',
-          'Prayer and divine intervention still effective',
-          'Window exists where battle continues',
-          'Outcome not predetermined'
-        ]
       }
     ],
     keyFigures: [
@@ -2132,32 +2347,9 @@ export const chapterContents: ChapterContent[] = [
           'Florida: "This is Sodom and Gomorrah. In one day it will burn."',
           '"The Russian spies found out where the most powerful nuclear plants in America are."',
           '"When Americans think it is peace and quiet, some groups from the inside will revolt. Then from the ocean they will bombard nuclear plants. And America will burn."',
-          '"Tell them to stop sinning and repent. All those who stop sinning and repent, God will save in the day of trouble."',
-          '"As He saved the three in the furnace, that is how He will save them. As He saved Daniel from the lions, that is how He will save them."',
-          'Leonard Ulrich: "I would not be surprised if this invasion occurred 10 years or less from now."'
         ],
         significance: 'Provides specific prophetic warning about America\'s future destruction and God\'s call to repentance, with supernatural protection promised for the faithful.',
         details: [
-          'Dimitru Duduman smuggled Bibles in communist Romania',
-          'Eventually caught and tortured for faith',
-          '1984: Received vision from God about America\'s future',
-          'Told to go to America and warn nation',
-          'Recording made ~30 years ago in Texas church',
-          'Recorded after Soviet collapse, before Chinese rise',
-          'Seemed impossible then, appears inevitable now',
-          'Vision: Traveled with angel in incredibly fast device',
-          'Shown three cities: California, New York, Florida',
-          'Each called "Sodom and Gomorrah"',
-          'Each will burn "in one day"',
-          'Russian spies located most powerful nuclear plants',
-          'Internal groups will revolt when Americans feel safe',
-          'Government occupied with revolution',
-          'Attack from ocean: Cuba, Nicaragua, Central America, Mexico, plus two others',
-          'Will bombard nuclear plants causing America to burn',
-          'God\'s message: Stop sinning and repent',
-          'God will save repentant as He saved Daniel and three in furnace',
-          'Supernatural protection promised for faithful',
-          'Leonard Ulrich: Prepare to be mobile and self-sufficient',
           'Invasion for self-preservation as American Empire collapses',
           'Timeline estimate: Within 10 years of 2020 (by 2030)'
         ]
@@ -2182,14 +2374,6 @@ export const chapterContents: ChapterContent[] = [
           'Year 2018 passed without complete implementation',
           'Proves New World Order powerful but NOT all-powerful',
           'Their plans CAN be delayed and disrupted',
-          'New paradigm: Fusion of gold and cryptocurrency',
-          'Digital control grid through CBDCs',
-          'Phoenix imagery declares intention to destroy current system',
-          'Open declaration of planned New World Order implementation',
-          'God\'s timeline supersedes their timeline',
-          'Window exists where battle still rages',
-          'Prayer and repentance still matter',
-          'Time remains for God\'s people to prepare'
         ]
       },
       {
@@ -2198,14 +2382,6 @@ export const chapterContents: ChapterContent[] = [
         quotes: [
           '"There is no financial or political solution to a spiritual problem."',
           '"God did not send us a banker or politician. God sent us a savior."',
-          'Your soul is destined to be separated from God when you die because it has been corrupted by evil.',
-          'Separation from God is worse than you could possibly imagine.',
-          'All of us have chosen to do wrong things to satisfy our own desires - this is the very definition of evil.',
-          'The only way to redeem your soul is to recognize and accept that Jesus paid your sin debt.',
-          'This offer is so simple, so priceless, and so gracious that it makes no sense why anyone would reject it.',
-          'There is an increasing chance that you will pay a price for your commitment. Compared to eternity without God, this is no price at all.',
-          '"You can have all the education in the world and not see that evil is organized. You can know everything there is to know about conspiracies and not see that there is a war going on for your soul."',
-          '"In the end, only Jesus will destroy the establishment of evil."'
         ],
         significance: 'Establishes that all the financial manipulation documented throughout history points to one solution: accepting Jesus Christ as savior and preparing spiritually for what lies ahead.',
         details: [
@@ -2214,20 +2390,6 @@ export const chapterContents: ChapterContent[] = [
           'History shows all reform attempts have failed',
           'Root problem is spiritual, not structural',
           'God sent savior (Jesus), not banker or politician',
-          'Soul destined for separation from God due to evil corruption',
-          'This separation worse than imaginable',
-          'All have chosen wrong to satisfy own desires (definition of evil)',
-          'Only redemption: Recognize Jesus paid sin debt through death on cross',
-          'Exact words of acknowledgment don\'t matter',
-          'What matters: Realize Jesus took your punishment',
-          'Offer is simple, priceless, and gracious',
-          'Makes no sense to reject it, yet billions do',
-          'Commitment to Christ may cost you in this life',
-          'Cost nothing compared to eternity without God',
-          'Can have all education and not see organized evil',
-          'Can know all conspiracies and miss war for your soul',
-          'Only Jesus will ultimately destroy evil establishment',
-          'Question: Will you be on His side when He does?'
         ]
       },
       {
@@ -2238,9 +2400,6 @@ export const chapterContents: ChapterContent[] = [
           '"What does it profit a man to gain the whole world and lose his very soul when you can\'t find another one to buy online?"',
           'The Federal Reserve can print trillions, but they cannot print forgiveness of sins.',
           'Central banks can control buying and selling, but they cannot control who enters heaven.',
-          'The technology for the mark of the beast system exists today.',
-          'There remains a window of opportunity for repentance before it\'s too late.',
-          'Understanding financial systems is important, but understanding Jesus is eternally critical.'
         ],
         significance: 'Brings the entire documentary to its ultimate conclusion: all the financial manipulation in history is meaningless compared to the eternal question of where you will spend eternity.',
         details: [
@@ -2248,20 +2407,6 @@ export const chapterContents: ChapterContent[] = [
           'Cannot purchase salvation with money',
           'Cannot find another soul to buy when yours is lost',
           'Federal Reserve can print money but not forgiveness',
-          'Central banks can control commerce but not heaven',
-          'Rothschilds can own 41 castles but not eternity',
-          'Soros can manipulate nations but not God\'s judgment',
-          'Warning is clear and urgent: accept Jesus NOW',
-          'Mark of beast technology exists today',
-          'Humanity conditioning nearly complete for total control',
-          'Spiritual warfare reaching climax',
-          'Window of opportunity still exists for repentance',
-          'Must prepare spiritually, not just financially',
-          'Documentary ultimately about pointing to Jesus',
-          'Understanding banking important but salvation eternally critical',
-          'Choice: Love money and lose soul, or love God and gain eternal life',
-          'Leonard Ulrich\'s core message: Turn to Christ before too late',
-          'Time is short, decision is urgent, stakes are eternal'
         ]
       }
     ],
